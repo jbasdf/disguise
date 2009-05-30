@@ -1,0 +1,7 @@
+= disguise
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Justin Ball. See LICENSE for details.
