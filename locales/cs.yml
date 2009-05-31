@@ -1,0 +1,7 @@
+--- 
+cs: 
+  activate_theme_message: "Klikněte na téma pro jeho aktivaci"
+  current_theme: "Aktuální téma"
+  no_themes_message: "Vy ještě nemáte vytvořen jakékoliv témata pro vaše aplikace. Pokud chcete vytvořit nové téma jednoduše spustit generátor téma a postupujte podle návodu:"
+  set_theme: "Nastavit Témata"
+  theme_updated: "Téma bylo úspěšně aktualizováno."

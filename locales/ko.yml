@@ -1,0 +1,7 @@
+--- 
+ko: 
+  activate_theme_message: "테마를 클릭하여 활성화"
+  current_theme: "현재 테마"
+  no_themes_message: "당신이 아직 귀하의 응용 프로그램에 대한 모든 주제를 작성하지 않았습니다. 만약 당신이 새로운 테마를 단순히 테마 발전기를 실행하고 지침에 따라 작성하고 싶습니다 :"
+  set_theme: "테마 설정"
+  theme_updated: "테마가 성공적으로 업데이 트했습니다."

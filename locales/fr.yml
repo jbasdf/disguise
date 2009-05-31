@@ -1,0 +1,7 @@
+--- 
+fr: 
+  activate_theme_message: "Cliquez sur un thème pour l&#39;activer"
+  current_theme: "Thème actuel"
+  no_themes_message: "Vous n&#39;avez pas encore créé de thèmes pour votre application. Si vous souhaitez créer un nouveau thème, exécutez simplement le thème générateur et suivez les instructions:"
+  set_theme: "Set Thème"
+  theme_updated: "Thème a été mis à jour."

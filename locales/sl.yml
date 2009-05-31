@@ -1,0 +1,7 @@
+--- 
+sl: 
+  activate_theme_message: "Kliknite na temo, da jo aktivirate"
+  current_theme: "Trenutne teme"
+  no_themes_message: "Še niste ustvarili nobenih teme za vašo prijavo. Če želite ustvariti novo temo, preprosto zaženite theme generator in sledite navodilom:"
+  set_theme: "Nastavljanje teme"
+  theme_updated: "Tema je bila uspeÅ ¡no posodobljen."

@@ -1,0 +1,7 @@
+--- 
+lv: 
+  activate_theme_message: "Klikšķiniet uz tēmas, lai aktivizētu"
+  current_theme: "Current Theme"
+  no_themes_message: "Jūs vēl neesat izveidojis nevienu tēmas savu pieteikumu. Ja vēlaties izveidot jaunu tēmu vienkārši palaist tēmu ģenerators un izpildiet instrukcijas:"
+  set_theme: "Set Theme"
+  theme_updated: "Tēma ir veiksmīgi atjaunināts."
