@@ -3,6 +3,7 @@ sv:
   disguise: 
     activate_theme_message: "Klicka på ett tema för att aktivera den"
     current_theme: "Aktuella teman"
+    no_current_theme: "För närvarande finns inga tema har valts ut för denna ansökan och så standardnamnet ansökan syfte att användas."
     no_themes_message: "Du har ännu inte skapat några teman för din ansökan. Om du vill skapa ett nytt tema kör helt enkelt temat generator och följ instruktionerna:"
     set_theme: "Ställ Tema"
     theme_updated: "Tema har uppdaterats."

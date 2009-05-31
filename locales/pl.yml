@@ -3,6 +3,7 @@ pl:
   disguise: 
     activate_theme_message: "Kliknij na temat, aby uaktywnić"
     current_theme: "Aktualny temat"
+    no_current_theme: "Aktualnie nie ma tematu został wybrany do tej aplikacji i tak aplikację domyślną widzenia będą wykorzystywane."
     no_themes_message: "Jeszcze nie utworzono żadnych tematów dla danej aplikacji. Jeśli chcesz utworzyć nowy temat wygenerować temat generatora i postępuj zgodnie z instrukcjami:"
     set_theme: "Ustaw Theme"
     theme_updated: "Temat został zaktualizowany."

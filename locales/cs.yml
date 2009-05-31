@@ -3,6 +3,7 @@ cs:
   disguise: 
     activate_theme_message: "Klikněte na téma pro jeho aktivaci"
     current_theme: "Aktuální téma"
+    no_current_theme: "V současné době žádné téma bylo vybráno pro tuto aplikaci a tak výchozí zobrazení aplikace budou použity."
     no_themes_message: "Vy ještě nemáte vytvořen jakékoliv témata pro vaše aplikace. Pokud chcete vytvořit nové téma jednoduše spustit generátor téma a postupujte podle návodu:"
     set_theme: "Nastavit Témata"
     theme_updated: "Téma bylo úspěšně aktualizováno."

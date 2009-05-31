@@ -4,6 +4,7 @@
   disguise: 
     activate_theme_message: "Klikk på et tema for å aktivere den"
     current_theme: "Aktuelle tema"
+    no_current_theme: "Foreløpig ingen tema er valgt for dette programmet, og så standard program visning vil bli brukt."
     no_themes_message: "Du har ennå ikke opprettet noen temaer for din søknad. Hvis du vil opprette et nytt tema rett og slett kjøre theme generator og følg instruksjonene:"
     set_theme: "Set Theme"
     theme_updated: "Temaet ble oppdatert."

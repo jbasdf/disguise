@@ -3,6 +3,7 @@ da:
   disguise: 
     activate_theme_message: "Klik på et tema for at aktivere den"
     current_theme: "Nuværende tema"
+    no_current_theme: "I øjeblikket ingen tema er blevet udvalgt til denne ansøgning, og så standard ansøgning opfattelse vil blive anvendt."
     no_themes_message: "Du har endnu ikke oprettet nogen temaer for din ansøgning. Hvis du vil oprette et nyt emne, skal du blot køre den tema-generator, og følg vejledningen:"
     set_theme: "Indstil Theme"
     theme_updated: "Tema var blevet opdateret."

@@ -2,7 +2,12 @@
 
 <h2><%= t('disguise.current_theme') %></h2>
 <div id="current-theme">
-  <%= render :partial => 'admin/themes/theme', :object => @current_theme %>
+  <% if @current_theme -%>
+    <%= render :partial => 'admin/themes/theme', :object => @current_theme %>
+    TODO add code to remove all themes so that the application uses the default app layout.
+  <% else -%>
+    <%= t('disguise.no_current_theme') %>
+  <% end -%>
 </div>
 
 <h2><%= t('disguise.activate_theme_message') %></h2>

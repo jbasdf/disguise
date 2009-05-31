@@ -3,6 +3,7 @@ zh:
   disguise: 
     activate_theme_message: 点击一个主题，以激活它
     current_theme: 当前主题
+    no_current_theme: 目前没有任何主题已选定此应用程序和应用程序的默认视图将被使用。
     no_themes_message: 您尚未创建任何主题为您的应用程序。如果你想创建一个新的主题只要执行主题发电机，并按照指示：
     set_theme: 设置主题
     theme_updated: 主题是成功更新。

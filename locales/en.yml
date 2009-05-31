@@ -5,3 +5,4 @@ en:
     set_theme: Set Theme
     current_theme: Current Theme
     activate_theme_message: Click on a theme to activate it
+    no_current_theme: 'Currently no theme has been selected for this application and so the default application view will be used.'

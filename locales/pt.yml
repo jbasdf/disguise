@@ -3,6 +3,7 @@ pt:
   disguise: 
     activate_theme_message: "Clique em um tema para ativá-la"
     current_theme: "Tema atual"
+    no_current_theme: "Actualmente, não tem sido tema escolhido para esta aplicação e, portanto, a aplicação padrão vista será utilizado."
     no_themes_message: "Você ainda não criou nenhum temas para a sua aplicação. Se você gostaria de criar um novo tema basta executar o tema gerador e siga as instruções:"
     set_theme: "Configurar tema"
     theme_updated: "Tema foi atualizado."

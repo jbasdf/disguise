@@ -3,6 +3,7 @@ de:
   disguise: 
     activate_theme_message: "Klicken Sie auf ein Thema, um es zu aktivieren"
     current_theme: "Aktuelle Themen"
+    no_current_theme: "Zur Zeit sind keine Themen ausgewählt wurde für diese Anwendung, so dass die Standard-Anwendung gesehen werden."
     no_themes_message: "Sie haben noch nicht alle Themen, die für Ihre Anwendung. Wenn Sie möchten, erstellen Sie ein neues Thema starten Sie das Thema Generator und folgen Sie den Anweisungen:"
     set_theme: "Set Thema"
     theme_updated: "Thema wurde erfolgreich aktualisiert."

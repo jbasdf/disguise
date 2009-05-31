@@ -4,11 +4,17 @@ class Theme < ActiveRecord::Base
     Dir[ File.join(RAILS_ROOT, 'themes', self.current, 'locales', '*.{rb,yml}') ]
   end
   
-  def self.available_themes(theme)
+  # This method will iterate through all available themes in the theme directory
+  # and then return an array of all themes as well as the currently selected theme
+  # as a hash in the format:
+  #  {:name => theme_name, :preview_image => image, :description => description}
+  # This can then be used by the view layer to show the user a list of available themes
+  # along with a preview image.
+  def self.available_themes(selected_theme)
     themes = []
-    current_theme = {:name => 'default', :preview_image => '/images/no_preview.gif', :description => 'default theme'}
     theme_path = File.join(RAILS_ROOT, Disguise::THEME_PATH)
-
+    current_theme = nil
+    
     Dir.glob("#{theme_path}/*").each do |theme_directory|
       if File.directory?(theme_directory)
         theme_name = File.basename(theme_directory)
@@ -27,7 +33,7 @@ class Theme < ActiveRecord::Base
         theme = {:name => theme_name, :preview_image => image, :description => description}
         themes << theme
 
-        current_theme = theme if theme.current == theme_name
+        current_theme = theme if selected_theme.current == theme_name
       end
     end
 

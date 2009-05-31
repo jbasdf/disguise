@@ -3,6 +3,7 @@ lt:
   disguise: 
     activate_theme_message: "Paspauskite ant temos aktyvuoti"
     current_theme: "Aktualios temos"
+    no_current_theme: "Šiuo metu nėra jokių tema buvo pasirinktas dėl šio prašymo ir tt pagal nutylėjimą taikymo vaizdas bus naudojamas."
     no_themes_message: "Jūs dar neturite susikūrę jokių temų jūsų paraišką. Jei norite sukurti naują temą tiesiog paleiskite tema generatorius ir sekite instrukcijas:"
     set_theme: "Nustatykite temą"
     theme_updated: "Tema buvo sėkmingai atnaujintas."
