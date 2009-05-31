@@ -1,7 +1,8 @@
 --- 
 es: 
-  activate_theme_message: "Haga clic en un tema para activarlo"
-  current_theme: "Tema actual"
-  no_themes_message: "Usted aún no ha creado ninguna temas para su aplicación. Si desea crear un nuevo tema simplemente ejecute el tema generador y siga las instrucciones:"
-  set_theme: "Establecer Tema"
-  theme_updated: "Tema se ha actualizado."
+  disguise: 
+    activate_theme_message: "Haga clic en un tema para activarlo"
+    current_theme: "Tema actual"
+    no_themes_message: "Usted aún no ha creado ninguna temas para su aplicación. Si desea crear un nuevo tema simplemente ejecute el tema generador y siga las instrucciones:"
+    set_theme: "Establecer Tema"
+    theme_updated: "Tema se ha actualizado."

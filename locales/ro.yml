@@ -1,7 +1,8 @@
 --- 
 ro: 
-  activate_theme_message: "Click pe o temă pentru a activa"
-  current_theme: "Tematica curenta"
-  no_themes_message: "Încă nu aţi creat nici teme pentru cererea dumneavoastră. Dacă doriţi să creaţi o nouă temă pur şi simplu rulaţi tema generator şi urmaţi instrucţiunile:"
-  set_theme: "Setare Tematica"
-  theme_updated: "Tematica a fost actualizat cu succes."
+  disguise: 
+    activate_theme_message: "Click pe o temă pentru a activa"
+    current_theme: "Tematica curenta"
+    no_themes_message: "Încă nu aţi creat nici teme pentru cererea dumneavoastră. Dacă doriţi să creaţi o nouă temă pur şi simplu rulaţi tema generator şi urmaţi instrucţiunile:"
+    set_theme: "Setare Tematica"
+    theme_updated: "Tematica a fost actualizat cu succes."

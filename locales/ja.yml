@@ -1,7 +1,8 @@
 --- 
 ja: 
-  activate_theme_message: をクリックして起動をテーマに
-  current_theme: 現在のテーマ
-  no_themes_message: あなたは、お使いのアプリケーションに任意のテーマを作成していません。場合は、新しいテーマがテーマだけを実行し、指示に従ってくださいジェネレータを作成したいと思います：
-  set_theme: 設定テーマ
-  theme_updated: テーマは正常に更新されました。
+  disguise: 
+    activate_theme_message: をクリックして起動をテーマに
+    current_theme: 現在のテーマ
+    no_themes_message: あなたは、お使いのアプリケーションに任意のテーマを作成していません。場合は、新しいテーマがテーマだけを実行し、指示に従ってくださいジェネレータを作成したいと思います：
+    set_theme: 設定テーマ
+    theme_updated: テーマは正常に更新されました。

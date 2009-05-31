@@ -1,5 +1,4 @@
 require 'rake'
-require 'rubygems'
 require 'rake/testtask'
 require 'rake/rdoctask'
 

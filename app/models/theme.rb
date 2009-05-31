@@ -1,5 +1,9 @@
 class Theme < ActiveRecord::Base
 
+  def locales
+    Dir[ File.join(RAILS_ROOT, 'themes', self.current, 'locales', '*.{rb,yml}') ]
+  end
+  
   def self.available_themes(theme)
     themes = []
     current_theme = {:name => 'default', :preview_image => '/images/no_preview.gif', :description => 'default theme'}

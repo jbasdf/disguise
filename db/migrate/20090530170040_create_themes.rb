@@ -1,7 +1,7 @@
 class CreateThemes < ActiveRecord::Migration
   def self.up
     create_table :themes, :force => true do |t|
-      t.string   "current", :null => false
+      t.string   "current"
     end
   end
 

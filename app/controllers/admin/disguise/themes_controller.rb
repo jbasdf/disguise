@@ -26,7 +26,7 @@ class Admin::Disguise::ThemesController < ApplicationController
 
   private
     def get_theme
-      @theme = Theme.first || Theme.create(:current => 'default')
+      @theme = Theme.first || Theme.create
     end
 
 end

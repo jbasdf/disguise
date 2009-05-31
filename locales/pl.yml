@@ -1,7 +1,8 @@
 --- 
 pl: 
-  activate_theme_message: "Kliknij na temat, aby uaktywnić"
-  current_theme: "Aktualny temat"
-  no_themes_message: "Jeszcze nie utworzono żadnych tematów dla danej aplikacji. Jeśli chcesz utworzyć nowy temat wygenerować temat generatora i postępuj zgodnie z instrukcjami:"
-  set_theme: "Ustaw Theme"
-  theme_updated: "Temat został zaktualizowany."
+  disguise: 
+    activate_theme_message: "Kliknij na temat, aby uaktywnić"
+    current_theme: "Aktualny temat"
+    no_themes_message: "Jeszcze nie utworzono żadnych tematów dla danej aplikacji. Jeśli chcesz utworzyć nowy temat wygenerować temat generatora i postępuj zgodnie z instrukcjami:"
+    set_theme: "Ustaw Theme"
+    theme_updated: "Temat został zaktualizowany."

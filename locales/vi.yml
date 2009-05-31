@@ -1,7 +1,8 @@
 --- 
 vi: 
-  activate_theme_message: "Click chuột vào một chủ đề để kích hoạt nó"
-  current_theme: "Chủ đề hiện tại"
-  no_themes_message: "Bạn chưa tạo ra bất kỳ chủ đề cho các ứng dụng của bạn. Nếu bạn muốn tạo ra một chủ đề mới chủ đề đơn giản hãy chạy máy phát điện và làm theo hướng dẫn:"
-  set_theme: "Đặt Chủ đề"
-  theme_updated: "Chủ đề đã được cập nhật."
+  disguise: 
+    activate_theme_message: "Click chuột vào một chủ đề để kích hoạt nó"
+    current_theme: "Chủ đề hiện tại"
+    no_themes_message: "Bạn chưa tạo ra bất kỳ chủ đề cho các ứng dụng của bạn. Nếu bạn muốn tạo ra một chủ đề mới chủ đề đơn giản hãy chạy máy phát điện và làm theo hướng dẫn:"
+    set_theme: "Đặt Chủ đề"
+    theme_updated: "Chủ đề đã được cập nhật."

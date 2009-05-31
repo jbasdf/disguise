@@ -1,6 +1,7 @@
 en:
-  theme_updated: 'Theme was successfully updated.'
-  no_themes_message: 'You have not yet created any themes for your application. If you would like to create a new theme simply run the theme generator and follow the instructions:'
-  set_theme: Set Theme
-  current_theme: Current Theme
-  activate_theme_message: Click on a theme to activate it
+  disguise:
+    theme_updated: 'Theme was successfully updated.'
+    no_themes_message: 'You have not yet created any themes for your application. If you would like to create a new theme simply run the theme generator and follow the instructions:'
+    set_theme: Set Theme
+    current_theme: Current Theme
+    activate_theme_message: Click on a theme to activate it

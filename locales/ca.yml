@@ -1,7 +1,8 @@
 --- 
 ca: 
-  activate_theme_message: "Feu clic a un tema per activar"
-  current_theme: "Tema actual"
-  no_themes_message: "Vostè encara no ha creat cap temes per a la seva aplicació. Si voleu crear un nou tema simplement executeu el tema generador i seguiu les instruccions:"
-  set_theme: "Establir Tema"
-  theme_updated: "Tema s&#39;ha actualitzat."
+  disguise: 
+    activate_theme_message: "Feu clic a un tema per activar"
+    current_theme: "Tema actual"
+    no_themes_message: "Vostè encara no ha creat cap temes per a la seva aplicació. Si voleu crear un nou tema simplement executeu el tema generador i seguiu les instruccions:"
+    set_theme: "Establir Tema"
+    theme_updated: "Tema s&#39;ha actualitzat."

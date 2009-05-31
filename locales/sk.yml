@@ -1,7 +1,8 @@
 --- 
 sk: 
-  activate_theme_message: "Kliknite na tému pre jeho aktiváciu"
-  current_theme: "Aktuálna téma"
-  no_themes_message: "Vy ešte nemáte vytvorený akékoľvek témy pre vaše aplikácie. Ak chcete vytvoriť novú tému jednoducho spustiť generátor tému a postupujte podľa návodu:"
-  set_theme: "Nastaviť Témy"
-  theme_updated: "Téma bolo úspešne aktualizované."
+  disguise: 
+    activate_theme_message: "Kliknite na tému pre jeho aktiváciu"
+    current_theme: "Aktuálna téma"
+    no_themes_message: "Vy ešte nemáte vytvorený akékoľvek témy pre vaše aplikácie. Ak chcete vytvoriť novú tému jednoducho spustiť generátor tému a postupujte podľa návodu:"
+    set_theme: "Nastaviť Témy"
+    theme_updated: "Téma bolo úspešne aktualizované."

@@ -1,7 +1,8 @@
 --- 
 sv: 
-  activate_theme_message: "Klicka på ett tema för att aktivera den"
-  current_theme: "Aktuella teman"
-  no_themes_message: "Du har ännu inte skapat några teman för din ansökan. Om du vill skapa ett nytt tema kör helt enkelt temat generator och följ instruktionerna:"
-  set_theme: "Ställ Tema"
-  theme_updated: "Tema har uppdaterats."
+  disguise: 
+    activate_theme_message: "Klicka på ett tema för att aktivera den"
+    current_theme: "Aktuella teman"
+    no_themes_message: "Du har ännu inte skapat några teman för din ansökan. Om du vill skapa ett nytt tema kör helt enkelt temat generator och följ instruktionerna:"
+    set_theme: "Ställ Tema"
+    theme_updated: "Tema har uppdaterats."

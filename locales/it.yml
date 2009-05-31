@@ -1,7 +1,8 @@
 --- 
 it: 
-  activate_theme_message: "Fare clic su un tema per attivarla"
-  current_theme: "Tema attuale"
-  no_themes_message: "Non hai ancora creato alcun temi per la vostra applicazione. Se si desidera creare un nuovo tema basta eseguire il tema generatore e seguire le istruzioni:"
-  set_theme: "Imposta Tema"
-  theme_updated: "Tema è stato aggiornato con successo."
+  disguise: 
+    activate_theme_message: "Fare clic su un tema per attivarla"
+    current_theme: "Tema attuale"
+    no_themes_message: "Non hai ancora creato alcun temi per la vostra applicazione. Se si desidera creare un nuovo tema basta eseguire il tema generatore e seguire le istruzioni:"
+    set_theme: "Imposta Tema"
+    theme_updated: "Tema è stato aggiornato con successo."

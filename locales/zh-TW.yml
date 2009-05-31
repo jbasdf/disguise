@@ -1,7 +1,8 @@
 --- 
 zh-TW: 
-  activate_theme_message: 點擊一個主題，以激活它
-  current_theme: 當前主題
-  no_themes_message: 您尚未創建任何主題為您的應用程序。如果你想創建一個新的主題只要執行主題發電機，並按照指示：
-  set_theme: 設置主題
-  theme_updated: 主題是成功更新。
+  disguise: 
+    activate_theme_message: 點擊一個主題，以激活它
+    current_theme: 當前主題
+    no_themes_message: 您尚未創建任何主題為您的應用程序。如果你想創建一個新的主題只要執行主題發電機，並按照指示：
+    set_theme: 設置主題
+    theme_updated: 主題是成功更新。

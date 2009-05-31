@@ -13,22 +13,35 @@ module ActionController
     module InstanceMethods
       
       def current_theme
-        return nil if Theme.first.blank?
-        Theme.first.current
+        @theme ||= Theme.first
       end
-      
+
       protected
-      
+
       def setup_theme
-        theme = current_theme
-        return if theme.blank?
-        self.prepend_view_path(File.join(RAILS_ROOT, 'themes', theme, 'views'))
-        i18n_path = File.join(RAILS_ROOT, 'themes', theme, 'locale', "#{I18n.locale}.yml")
-        if I18n.load_path.last != i18n_path
-          I18n.load_path.delete_if {|localization_path| localization_path.include?('themes')}
-          I18n.load_path << i18n_path
+        return if current_theme.blank? || current_theme.current.blank?
+        theme_view_path = File.join(Disguise::THEME_FULL_BASE_PATH, current_theme.current, 'views')
+        if self.view_paths.first == theme_view_path
+          return
+        else
+          clean_theme_view_path
+          self.prepend_view_path(theme_view_path)
+          clean_theme_locale
+          set_theme_locale
           I18n.reload!
         end
+      end
+
+      def clean_theme_view_path
+        self.view_paths.delete_if {|view_path| view_path.to_s.index(Disguise::THEME_PATH) == 0}
+      end
+
+      def clean_theme_locale
+        I18n.load_path.delete_if {|localization_path| localization_path.index(Disguise::THEME_FULL_BASE_PATH) == 0}
+      end
+
+      def set_theme_locale
+        I18n.load_path += current_theme.locales
       end
       
     end

@@ -1,7 +1,8 @@
 --- 
 nl: 
-  activate_theme_message: "Klik op een thema te activeren"
-  current_theme: "Huidig Thema"
-  no_themes_message: "U nog geen thema&#39;s voor uw toepassing. Wilt u een nieuw thema als u het thema generator en volg de instructies:"
-  set_theme: "Stel Thema"
-  theme_updated: "Thema is bijgewerkt."
+  disguise: 
+    activate_theme_message: "Klik op een thema te activeren"
+    current_theme: "Huidig Thema"
+    no_themes_message: "U nog geen thema&#39;s voor uw toepassing. Wilt u een nieuw thema als u het thema generator en volg de instructies:"
+    set_theme: "Stel Thema"
+    theme_updated: "Thema is bijgewerkt."
