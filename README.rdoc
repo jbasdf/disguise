@@ -1,7 +1,43 @@
 = disguise
 
-Description goes here.
+A simple theme system for your Rails application.
 
+== Installation
+sudo gem install disguise
+
+== Setup
+Disguise comes with an admin controller to make changing your theme simple.  By default it is not protected.  
+In order to prevent unauthorized users from changing your theme you can override the admin controller like this:
+
+  class Admin::ThemesController < Admin::Disguise::ThemesController
+    before_filter :login_required
+    layout('admin')
+  end
+
+Also be sure to add a route to the new controller in routes.rb:
+
+  # admin
+  map.namespace :admin do |a|
+    a.resource :theme
+  end
+
+=== Rake tasks
+
+Add disguise rake tasks to your rails project.  Include the following line at the end of your Rakefile:
+
+  require 'disguise/tasks'
+
+Then run the following to add the required files and database migration:
+  rake disguise:setup 
+  rake db:migrate
+
+
+== Usage
+Generate a new theme for your Rails application using the built in theme generator:
+  
+  ./script/generate theme theme_name
+       
+       
 == Copyright
 
 Copyright (c) 2009 Justin Ball. See LICENSE for details.

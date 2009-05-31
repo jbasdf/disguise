@@ -1,0 +1,28 @@
+<div id="top-navigation">
+  <form action="/search" style='margin:0px;padding:0px;'>
+		<ul class="top-nav">
+			<li class="first"><a href="http://<%= GlobalConfig.application_url %>/home"><%= _('Home') %></a></li>
+			<li><a href="<%= groups_path %>"><%= _('Groups') %></a></li>
+			<li><a href="<%= profiles_path %>"><%= _('People') %></a></li>
+			<li><a href="<%= news_index_path %>"><%= _('News') %></a></li>
+			<li><a href="http://courses.<%= GlobalConfig.application_base_url %>"><%= _('Courses') %></a></li>
+			<li><a href="/pages/support-us"><%= _('Donate') %></a></li>
+		</ul>
+		<div id="log-out" class="right">
+			<span id='search'>
+			<script type='text/javascript'>function searchClicked(){sb=document.getElementById('search_box');sb.style.color='black';if (sb.value == 'Search') sb.value='';}</script>
+			<input id='search_box' type='text' name='q' value='<%= _('Search') %>' onclick='searchClicked();'/>
+	      <button style='height:22px;'><span style='line-height:13px;vertical-align:middle;'><%= _('Go') %></span></button>
+	    </span>
+			<% if logged_in? -%>
+				<%= link_to _('My Dashboard'), user_path(current_user) %>
+				<%= link_to current_user.login, profile_path(current_user) %>
+				<%= link_to _('Logout'), logout_path %>
+			<% else -%>
+				<%= _("%{login_link} %{signup_link}") % {:login_link => link_to(_('Login'), login_path), :signup_link => link_to(_('Sign-up'), signup_path)} %>
+			<% end -%>
+		</div>
+  </form>
+</div>
+
+<div class="clear"></div>

@@ -1,0 +1,10 @@
+<h1><%= t('disguise.set_theme') %></h1>
+
+<h2><%= t('disguise.current_theme') %></h2>
+<div id="current-theme">
+  <%= render :partial => 'admin/themes/theme', :object => @current_theme %>
+</div>
+
+<h2><%= t('disguise.activate_theme_message') %></h2>
+<%= error_messages_for :theme %>
+<%= render :partial => 'admin/themes/theme', :collection => @themes %>

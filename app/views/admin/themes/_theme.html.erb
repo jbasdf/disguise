@@ -1,0 +1,7 @@
+<div class="theme-block">
+  <% form_for @theme, :url => admin_theme_path, :html => { :method => :put } do |f| -%>
+  	<%= f.hidden_field :theme, :value => theme[:name] %>
+  	<%= image_submit_tag theme[:preview_image] %>
+  	<%= theme[:description] %>
+  <% end -%>
+</div>

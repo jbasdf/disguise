@@ -1,0 +1,9 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Luvfoo - communities with purpose" />
+<title><%= @title || _(GlobalConfig.application_name) -%></title>
+<%= stylesheet_link_tag 'reset', 'ie', 'application', 'beast', 'standard', :cache=>true -%>
+<%= javascript_include_tag 'jquery', 'jquery-ui', 'jrails', 'thickbox', 'jquery-plugins/jquery.jgrowl_minimized.js', 'application' -%>
+<%= theme_stylesheet_link_tag %>
+<%= javascript_tag %[const AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? -%>
+<%= yield :head -%>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">

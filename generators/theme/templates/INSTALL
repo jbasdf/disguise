@@ -1,0 +1,5 @@
+To complete the theme you will need to modify the strings in the en.yml file that can be found in /themes/{theme_name}/locale/en.yml.
+You can change most of the text in the site by changing that file.
+We've created a directory in the images folder with your theme name.  Place all theme specific images into that folder.
+We also added a file called public/stylesheets/themes/{theme_name}.css where you can put theme specific css.
+Add a description for your new theme to description.txt and a preview image named preview.gif.  (You can also use a png or jpg).
