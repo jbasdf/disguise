@@ -42,6 +42,7 @@ Gem::Specification.new do |s|
      "generators/theme/templates/description.txt",
      "generators/theme/templates/description.txt",
      "generators/theme/templates/locales/en.yml",
+     "generators/theme/templates/locales/en.yml",
      "generators/theme/templates/preview.gif",
      "generators/theme/templates/preview.gif",
      "generators/theme/templates/stylesheets/styles.css",
