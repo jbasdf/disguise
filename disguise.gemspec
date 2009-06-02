@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{disguise}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2009-05-30}
+  s.date = %q{2009-05-31}
   s.description = %q{Add themes to your Rails application to easily change the view layer and impress everyone you know}
   s.email = %q{justinball@gmail.com}
   s.extra_rdoc_files = [
@@ -53,6 +53,7 @@ Gem::Specification.new do |s|
      "generators/theme/templates/views/_head.html.erb",
      "generators/theme/templates/views/_header.html.erb",
      "generators/theme/templates/views/_header.html.erb",
+     "generators/theme/templates/views/default.html.erb",
      "generators/theme/templates/views/default.html.erb",
      "generators/theme/theme_generator.rb",
      "generators/theme/theme_generator.rb",

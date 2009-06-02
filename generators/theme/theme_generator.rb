@@ -28,7 +28,7 @@ class ThemeGenerator < Rails::Generator::NamedBase
       m.file "stylesheets/styles.css", "public/stylesheets/themes/#{file_name}/styles.css"
 
       # localization
-      m.file "locale/en.yml", "themes/#{file_name}/locale/en.yml"
+      m.file "locale/en.yml", "themes/#{file_name}/locales/en.yml"
 
       m.readme "INSTALL"
     end

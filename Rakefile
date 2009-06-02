@@ -53,11 +53,12 @@ rescue LoadError
   puts "Rake SshDirPublisher is unavailable or your rubyforge environment is not configured."
 end
 
-require 'rake/testtask'
-Rake::TestTask.new(:test) do |test|
-  test.libs << 'lib' << 'test'
-  test.pattern = 'test/**/*_test.rb'
-  test.verbose = true
+desc 'Test the disguise gem.'
+Rake::TestTask.new(:test) do |t|
+  t.libs << 'lib'
+  t.libs << 'test/rails_root/test'
+  t.pattern = 'test/rails_root/test/**/*_test.rb'
+  t.verbose = true
 end
 
 begin
