@@ -28,7 +28,15 @@ class Admin::ThemesControllerTest < ActionController::TestCase
     should_render_template 'admin/themes/edit'
   end
   
+  context "update the current theme" do
+    setup do
+      setup_theme
+      put :update, :theme => { :current => 'red' }
+    end
+    should "change the current theme" do
+      assert_equal Theme.first.current, 'red'
+    end
+    should_set_the_flash_to(I18n.t("disguise.theme_updated"))
+    should_redirect_to("edit theme") { edit_admin_theme_path }
+  end
 end
-
-
-

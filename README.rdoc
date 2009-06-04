@@ -37,7 +37,11 @@ Generate a new theme for your Rails application using the built in theme generat
   
   ./script/generate theme theme_name
        
-       
+
+== Tests
+Tests require the gem installed before running.  In addition, if you change any of the code
+you will need to run rake install before testing.
+  
 == Copyright
 
 Copyright (c) 2009 Justin Ball. See LICENSE for details.

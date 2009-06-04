@@ -17,4 +17,19 @@ class ActiveSupport::TestCase
   def ensure_flash(val)
     assert_contains flash.values, val, ", Flash: #{flash.inspect}"
   end
+  
+  def setup_theme
+    @theme = Theme.first || Theme.create
+    @theme.current = 'blue'
+    @theme.save!
+  end
+  
+  def clean_theme_view_path(controller)
+    controller.view_paths.delete_if {|view_path| view_path.to_s.index(Disguise::THEME_PATH) == 0}
+  end
+
+  def clean_theme_locale
+    I18n.load_path.delete_if {|localization_path| localization_path.index(Disguise::THEME_FULL_BASE_PATH) == 0}
+  end
+  
 end
