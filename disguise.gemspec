@@ -21,8 +21,10 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "app/controllers/admin/disguise/domain_themes_controller.rb",
+     "app/controllers/admin/disguise/domain_themes_controller.rb",
      "app/controllers/admin/disguise/themes_controller.rb",
      "app/controllers/admin/disguise/themes_controller.rb",
+     "app/models/domain_theme.rb",
      "app/models/domain_theme.rb",
      "app/models/theme.rb",
      "app/models/theme.rb",
@@ -36,6 +38,7 @@ Gem::Specification.new do |s|
      "config/disguise_routes.rb",
      "db/migrate/20090530170040_create_themes.rb",
      "db/migrate/20090530170040_create_themes.rb",
+     "db/migrate/20090606153236_create_domain_themes.rb",
      "db/migrate/20090606153236_create_domain_themes.rb",
      "disguise.gemspec",
      "generators/theme/USAGE",
@@ -140,6 +143,7 @@ Gem::Specification.new do |s|
      "test/rails_root/.rake_tasks",
      "test/rails_root/Capfile",
      "test/rails_root/Rakefile",
+     "test/rails_root/app/controllers/admin/domain_themes_controller.rb",
      "test/rails_root/app/controllers/admin/themes_controller.rb",
      "test/rails_root/app/controllers/application_controller.rb",
      "test/rails_root/app/controllers/default_controller.rb",
@@ -155,6 +159,7 @@ Gem::Specification.new do |s|
      "test/rails_root/config/environments/production.rb",
      "test/rails_root/config/environments/test.rb",
      "test/rails_root/config/global_config.yml",
+     "test/rails_root/config/initializers/disguise_init.rb",
      "test/rails_root/config/initializers/inflections.rb",
      "test/rails_root/config/initializers/mime_types.rb",
      "test/rails_root/config/initializers/requires.rb",
@@ -164,6 +169,7 @@ Gem::Specification.new do |s|
      "test/rails_root/db/.keep",
      "test/rails_root/db/migrate/20090530170040_create_themes.rb",
      "test/rails_root/db/migrate/20090602041838_create_users.rb",
+     "test/rails_root/db/migrate/20090606153236_create_domain_themes.rb",
      "test/rails_root/features/step_definitions/webrat_steps.rb",
      "test/rails_root/features/support/env.rb",
      "test/rails_root/public/.htaccess",
@@ -207,6 +213,7 @@ Gem::Specification.new do |s|
      "test/rails_root/script/server",
      "test/rails_root/test/factories.rb",
      "test/rails_root/test/functional/.keep",
+     "test/rails_root/test/functional/admin/domain_themes_controller_test.rb",
      "test/rails_root/test/functional/admin/themes_controller_test.rb",
      "test/rails_root/test/functional/default_controller_test.rb",
      "test/rails_root/test/integration/.keep",
@@ -214,6 +221,7 @@ Gem::Specification.new do |s|
      "test/rails_root/test/mocks/test/.keep",
      "test/rails_root/test/test_helper.rb",
      "test/rails_root/test/unit/.keep",
+     "test/rails_root/test/unit/domain_theme_test.rb",
      "test/rails_root/test/unit/theme_test.rb",
      "test/rails_root/themes/blue/description.txt",
      "test/rails_root/themes/blue/locales/blue.yml",
@@ -238,7 +246,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.1}
   s.summary = %q{Easy to use view theme system for Rails}
   s.test_files = [
-    "test/rails_root/app/controllers/admin/themes_controller.rb",
+    "test/rails_root/app/controllers/admin/domain_themes_controller.rb",
+     "test/rails_root/app/controllers/admin/themes_controller.rb",
      "test/rails_root/app/controllers/application_controller.rb",
      "test/rails_root/app/controllers/default_controller.rb",
      "test/rails_root/app/models/user.rb",
@@ -267,6 +276,7 @@ Gem::Specification.new do |s|
      "test/rails_root/test/functional/admin/themes_controller_test.rb",
      "test/rails_root/test/functional/default_controller_test.rb",
      "test/rails_root/test/test_helper.rb",
+     "test/rails_root/test/unit/domain_theme_test.rb",
      "test/rails_root/test/unit/theme_test.rb"
   ]
 
