@@ -31,10 +31,10 @@ class Admin::ThemesControllerTest < ActionController::TestCase
   context "update the current theme" do
     setup do
       setup_theme
-      put :update, :theme => { :current => 'red' }
+      put :update, :theme => { :name => 'red' }
     end
     should "change the current theme" do
-      assert_equal Theme.first.current, 'red'
+      assert_equal Theme.first.name, 'red'
     end
     should_set_the_flash_to(I18n.t("disguise.theme_updated"))
     should_redirect_to("edit theme") { edit_admin_theme_path }

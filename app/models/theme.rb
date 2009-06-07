@@ -1,7 +1,7 @@
 class Theme < ActiveRecord::Base
 
   def locales
-    Dir[ File.join(RAILS_ROOT, 'themes', self.current, 'locales', '*.{rb,yml}') ]
+    Dir[ File.join(RAILS_ROOT, 'themes', self.name, 'locales', '*.{rb,yml}') ]
   end
   
   # This method will iterate through all available themes in the theme directory
@@ -33,7 +33,7 @@ class Theme < ActiveRecord::Base
         theme = {:name => theme_name, :preview_image => image, :description => description}
         themes << theme
 
-        current_theme = theme if selected_theme.current == theme_name
+        current_theme = theme if selected_theme.name == theme_name
       end
     end
 

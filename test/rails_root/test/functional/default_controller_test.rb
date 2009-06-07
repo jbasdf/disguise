@@ -57,4 +57,11 @@ class DefaultControllerTest < ActionController::TestCase
     end
   end
   
+  context "use url to determine theme" do
+    setup do
+      DomainTheme.stubs(:use_domain_themes?).returns(true)
+      get :index
+    end
+  end
+  
 end

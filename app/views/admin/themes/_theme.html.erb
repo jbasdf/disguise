@@ -1,7 +1,21 @@
-<div class="theme-block">
+<div class="theme-block box">
+  <h3><%= theme[:name] %></h3>
   <% form_for @theme, :url => admin_theme_path, :html => { :method => :put } do |f| -%>
-  	<%= f.hidden_field :current, :value => theme[:name] %>
+  	<%= f.hidden_field :name, :value => theme[:name] %>
   	<%= image_submit_tag theme[:preview_image] %>
   	<%= theme[:description] %>
+  <% end -%>
+  <% if DomainTheme.use_domain_themes? -%>
+    <% domain_theme = @domain_themes[theme[:name]] || DomainTheme.new(:name => theme[:name]) %>
+    <% form_for [:admin, domain_theme] do |f| -%>
+    	<%= f.hidden_field :name %>
+    	<%= f.label t('disguise.theme_uri_label') %>
+    	<%= f.text_field :uri %>
+    	<% if domain_theme.new_record? -%>
+        <%= submit_tag t('disguise.add_uri') %>
+    	<% else -%>
+    	  <%= submit_tag t('disguise.update_uri') %>
+    	<% end -%>
+    <% end -%>
   <% end -%>
 </div>

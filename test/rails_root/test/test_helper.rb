@@ -20,7 +20,7 @@ class ActiveSupport::TestCase
   
   def setup_theme
     @theme = Theme.first || Theme.create
-    @theme.current = 'blue'
+    @theme.name = 'blue'
     @theme.save!
   end
   

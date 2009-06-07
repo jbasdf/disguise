@@ -5,6 +5,8 @@ class Admin::Disguise::ThemesController < ApplicationController
 
   def edit
     @current_theme, @themes = Theme.available_themes(@theme)
+    @domain_themes = {}
+    DomainTheme.all.each{|d| @domain_themes[d.name] = d}
     if @themes.empty?
       respond_to do |format|
         format.html { render :template => 'admin/themes/no_themes' }

@@ -6,7 +6,7 @@ A simple theme system for your Rails application.
 sudo gem install disguise
 
 == Setup
-Disguise comes with an admin controller to make changing your theme simple.  By default it is not protected.  
+Disguise comes with a couple of admin controllers to make changing your theme simple.  By default they are not protected.  
 In order to prevent unauthorized users from changing your theme you can override the admin controller like this:
 
   class Admin::ThemesController < Admin::Disguise::ThemesController
@@ -14,11 +14,18 @@ In order to prevent unauthorized users from changing your theme you can override
     layout('admin')
   end
 
+  class Admin::DomainThemesController < Admin::Disguise::DomainThemesController
+    before_filter :login_required
+    layout('admin')
+  end
+
+
 Also be sure to add a route to the new controller in routes.rb:
 
   # admin
   map.namespace :admin do |a|
     a.resource :theme
+    a.resources :domain_themes
   end
 
 === Rake tasks
@@ -37,6 +44,11 @@ Generate a new theme for your Rails application using the built in theme generat
   
   ./script/generate theme theme_name
        
+Disguise can run in two modes.  The first is the default which let's an administrator set the current theme
+via the built in admin interface.  The second looks at the url of the incoming request and matches it to a theme.
+To enable this second mode create an initializer in /config/initializers/disguise.rb and enter the following contents:
+
+  USE_DOMAIN_FOR_THEMES = true
 
 == Tests
 Tests require the gem installed before running.  In addition, if you change any of the code

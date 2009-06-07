@@ -6,3 +6,8 @@ en:
     current_theme: Current Theme
     activate_theme_message: Click on a theme to activate it
     no_current_theme: 'Currently no theme has been selected for this application and so the default application view will be used.'
+    use_domain_themes: 'Themes are currently set to be changed based on the current url.  In this mode the current theme will be determined by the url specified with each theme below.'
+    update_uri: Update Url
+    add_uri: Add Url
+    remove_all_themes: "Remove all themes and use default application templates"
+    theme_uri_label: Url for Theme

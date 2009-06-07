@@ -13,14 +13,18 @@ module ActionController
     module InstanceMethods
       
       def current_theme
-        @theme ||= Theme.first
+        if DomainTheme.use_domain_themes?
+          @theme ||= DomainTheme.get_theme(request)
+        else
+          @theme ||= Theme.first
+        end
       end
 
       protected
 
       def setup_theme
-        return if current_theme.blank? || current_theme.current.blank?
-        theme_view_path = File.join(Disguise::THEME_FULL_BASE_PATH, current_theme.current, 'views')
+        return if current_theme.blank? || current_theme.name.blank?
+        theme_view_path = File.join(Disguise::THEME_FULL_BASE_PATH, current_theme.name, 'views')
         if self.view_paths.first == theme_view_path
           return
         else

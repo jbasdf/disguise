@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{disguise}
-  s.version = "0.1.3"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2009-06-04}
+  s.date = %q{2009-06-06}
   s.description = %q{Add themes to your Rails application to easily change the view layer and impress everyone you know}
   s.email = %q{justinball@gmail.com}
   s.extra_rdoc_files = [
@@ -20,8 +20,10 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "app/controllers/admin/disguise/domain_themes_controller.rb",
      "app/controllers/admin/disguise/themes_controller.rb",
      "app/controllers/admin/disguise/themes_controller.rb",
+     "app/models/domain_theme.rb",
      "app/models/theme.rb",
      "app/models/theme.rb",
      "app/views/admin/themes/_theme.html.erb",
@@ -34,6 +36,7 @@ Gem::Specification.new do |s|
      "config/disguise_routes.rb",
      "db/migrate/20090530170040_create_themes.rb",
      "db/migrate/20090530170040_create_themes.rb",
+     "db/migrate/20090606153236_create_domain_themes.rb",
      "disguise.gemspec",
      "generators/theme/USAGE",
      "generators/theme/USAGE",
@@ -244,6 +247,7 @@ Gem::Specification.new do |s|
      "test/rails_root/config/environments/development.rb",
      "test/rails_root/config/environments/production.rb",
      "test/rails_root/config/environments/test.rb",
+     "test/rails_root/config/initializers/disguise_init.rb",
      "test/rails_root/config/initializers/inflections.rb",
      "test/rails_root/config/initializers/mime_types.rb",
      "test/rails_root/config/initializers/requires.rb",
@@ -252,12 +256,14 @@ Gem::Specification.new do |s|
      "test/rails_root/config/routes.rb",
      "test/rails_root/db/migrate/20090530170040_create_themes.rb",
      "test/rails_root/db/migrate/20090602041838_create_users.rb",
+     "test/rails_root/db/migrate/20090606153236_create_domain_themes.rb",
      "test/rails_root/db/schema.rb",
      "test/rails_root/features/step_definitions/webrat_steps.rb",
      "test/rails_root/features/support/env.rb",
      "test/rails_root/public/dispatch.rb",
      "test/rails_root/script/create_project.rb",
      "test/rails_root/test/factories.rb",
+     "test/rails_root/test/functional/admin/domain_themes_controller_test.rb",
      "test/rails_root/test/functional/admin/themes_controller_test.rb",
      "test/rails_root/test/functional/default_controller_test.rb",
      "test/rails_root/test/test_helper.rb",

@@ -5,7 +5,7 @@ class ThemeTest < ActiveSupport::TestCase
   context "theme" do
     setup do
       @theme = Theme.first || Theme.create
-      @theme.current = 'blue'
+      @theme.name = 'blue'
       @blue_theme_hash = {:name=>"blue", :description=>"Put information about your theme here", :preview_image=>"/images/blue/preview.gif"}
     end
     context "locales" do
