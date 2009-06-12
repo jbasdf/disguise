@@ -1,7 +1,6 @@
 class DomainTheme < ActiveRecord::Base
   
   validates_presence_of :name, :uri
-  validates_uniqueness_of :name, :uri
   
   class << self
     def use_domain_themes?

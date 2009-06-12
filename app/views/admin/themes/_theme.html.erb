@@ -6,16 +6,26 @@
   	<%= theme[:description] %>
   <% end -%>
   <% if DomainTheme.use_domain_themes? -%>
-    <% domain_theme = @domain_themes[theme[:name]] || DomainTheme.new(:name => theme[:name]) %>
+    <% domain_theme = DomainTheme.new(:name => theme[:name]) %>
     <% form_for [:admin, domain_theme] do |f| -%>
     	<%= f.hidden_field :name %>
     	<%= f.label t('disguise.theme_uri_label') %>
     	<%= f.text_field :uri %>
-    	<% if domain_theme.new_record? -%>
-        <%= submit_tag t('disguise.add_uri') %>
-    	<% else -%>
-    	  <%= submit_tag t('disguise.update_uri') %>
-    	<% end -%>
+      <%= submit_tag t('disguise.add_uri') %>
     <% end -%>
   <% end -%>
+  <% if !@domain_themes[theme[:name]].blank? %>
+    <p class="theme-information"><%= t('disguise.uris_title') %></p>
+    <ul class="theme-list">
+      <% @domain_themes[theme[:name]].each do |domain_theme| -%>
+        <li>
+          <% form_for [:admin, domain_theme], :html => { :method => :delete } do |f| -%>
+            <%= domain_theme.uri %>
+            <%= submit_tag t('disguise.delete_uri') %>
+          <% end -%>
+        </li>
+      <% end -%>
+    </ul>
+  <% end -%>
 </div>
+
