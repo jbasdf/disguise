@@ -1,7 +1,7 @@
 <h1><%= t('disguise.set_theme') %></h1>
 <div id="current-theme">
   <% if DomainTheme.use_domain_themes? -%>
-    <%= t('disguise.use_domain_themes') %>
+    <h2><%= t('disguise.use_domain_themes') %></h2>
   <% else -%>
     <h2><%= t('disguise.name_theme') %></h2>
     <% if @current_theme -%>
@@ -13,8 +13,8 @@
     <% else -%>
       <%= t('disguise.no_current_theme') %>
     <% end -%>
+    <h2><%= t('disguise.activate_theme_message') %></h2>
   <% end -%>
 </div>
-<h2><%= t('disguise.activate_theme_message') %></h2>
 <%= error_messages_for :theme %>
 <%= render :partial => 'admin/themes/theme', :collection => @themes %>
