@@ -6,6 +6,7 @@ class Admin::DomainThemesControllerTest < ActionController::TestCase
     @controller = Admin::DomainThemesController.new
     @request    = ActionController::TestRequest.new
     @response   = ActionController::TestResponse.new
+    @new_uri = 'red.example.com'
   end
   
   context "create the domain theme" do
@@ -23,7 +24,6 @@ class Admin::DomainThemesControllerTest < ActionController::TestCase
   
   context "update the domain theme" do
     setup do
-      @new_uri = 'red.example.com'
       @domain_theme = Factory(:domain_theme, :name => 'red')
       put :update, :domain_theme => { :name => 'red', :uri => @new_uri }
       @domain_theme.reload

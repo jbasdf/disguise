@@ -7,7 +7,6 @@ class DomainThemeTest < ActiveSupport::TestCase
       @domain_theme = Factory(:domain_theme)
     end
     should_validate_presence_of :name, :uri
-    should_validate_uniqueness_of :name, :uri
   end
 
   context "theme by request" do
