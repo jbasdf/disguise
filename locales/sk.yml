@@ -2,8 +2,17 @@
 sk: 
   disguise: 
     activate_theme_message: "Kliknite na tému pre jeho aktiváciu"
+    add_uri: Pridať
     current_theme: "Aktuálna téma"
+    delete_uri: Odstrániť
+    error_creating_domain_theme: "Došlo k problému pri pridania url: {{error}}"
     no_current_theme: "V súčasnej dobe žiadne tému bolo vybraných pre túto aplikáciu a tak predvolené zobrazenie aplikácie budú použité."
     no_themes_message: "Vy ešte nemáte vytvorený akékoľvek témy pre vaše aplikácie. Ak chcete vytvoriť novú tému jednoducho spustiť generátor tému a postupujte podľa návodu:"
+    remove_all_themes: "Odstránenie všetkých tém a použitie predvolené šablóny aplikácie"
     set_theme: "Nastaviť Témy"
     theme_updated: "Téma bolo úspešne aktualizované."
+    theme_uri_label: "Url k téme"
+    update_uri: "Update Url"
+    uri_deleted: "Zadaný url bol zmazaný"
+    uris_title: "Táto téma sa zobrazia všetky tieto adresy URL"
+    use_domain_themes: "Aktuálna téma bude stanovené podľa url uvedené pri každej témy nižšie."

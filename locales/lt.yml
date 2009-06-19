@@ -2,8 +2,17 @@
 lt: 
   disguise: 
     activate_theme_message: "Paspauskite ant temos aktyvuoti"
+    add_uri: Pridėti
     current_theme: "Aktualios temos"
+    delete_uri: Ištrinti
+    error_creating_domain_theme: "Iškilo problema įrašant URL: {{error}}"
     no_current_theme: "Šiuo metu nėra jokių tema buvo pasirinktas dėl šio prašymo ir tt pagal nutylėjimą taikymo vaizdas bus naudojamas."
     no_themes_message: "Jūs dar neturite susikūrę jokių temų jūsų paraišką. Jei norite sukurti naują temą tiesiog paleiskite tema generatorius ir sekite instrukcijas:"
+    remove_all_themes: "Pašalinti visas temas ir naudoti numatytąjį taikant šablonus"
     set_theme: "Nustatykite temą"
     theme_updated: "Tema buvo sėkmingai atnaujintas."
+    theme_uri_label: "URL temos"
+    update_uri: "Atnaujinti URL"
+    uri_deleted: "Nurodytas url nebuvo išbraukta"
+    uris_title: "Ši tema bus naudojamas visų šių URL"
+    use_domain_themes: "Dabartinė tema bus nustatomas pagal URL su kiekvienai temai žemiau."

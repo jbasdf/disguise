@@ -2,8 +2,17 @@
 ro: 
   disguise: 
     activate_theme_message: "Click pe o temă pentru a activa"
+    add_uri: Adăuga
     current_theme: "Tematica curenta"
+    delete_uri: Şterge
+    error_creating_domain_theme: "A apărut o problemă la adăugarea URL: {{error}}"
     no_current_theme: "În prezent, nici o tema a fost selectat pentru această cerere şi deci implicit de aplicare a vizualiza va fi folosit."
     no_themes_message: "Încă nu aţi creat nici teme pentru cererea dumneavoastră. Dacă doriţi să creaţi o nouă temă pur şi simplu rulaţi tema generator şi urmaţi instrucţiunile:"
+    remove_all_themes: "Eliminaţi toate temele şi de a folosi implicit şabloanele de aplicare"
     set_theme: "Setare Tematica"
     theme_updated: "Tematica a fost actualizat cu succes."
+    theme_uri_label: "URL-ul pentru Tematica"
+    update_uri: "Update Url"
+    uri_deleted: "URL-ul specificat a fost şters"
+    uris_title: "Această temă va fi afişat pentru toate URL-urile următoare"
+    use_domain_themes: "Actuala tema va fi stabilită de către URL-ul specificat cu fiecare temă de mai jos."

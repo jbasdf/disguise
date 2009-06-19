@@ -2,8 +2,17 @@
 ca: 
   disguise: 
     activate_theme_message: "Feu clic a un tema per activar"
+    add_uri: Afegir
     current_theme: "Tema actual"
+    delete_uri: Esborrar
+    error_creating_domain_theme: "Hi ha hagut un problema en afegir la url: {{error}}"
     no_current_theme: "Encara no hi ha cap tema ha estat seleccionat per a aquesta aplicació i per la qual cosa la vista d&#39;aplicació per defecte serà usada."
     no_themes_message: "Vostè encara no ha creat cap temes per a la seva aplicació. Si voleu crear un nou tema simplement executeu el tema generador i seguiu les instruccions:"
+    remove_all_themes: "Quite tots els temes i l&#39;ús per defecte plantilles d&#39;aplicació"
     set_theme: "Establir Tema"
     theme_updated: "Tema s&#39;ha actualitzat."
+    theme_uri_label: "Url de Tema"
+    update_uri: "Actualització Url"
+    uri_deleted: "L&#39;URL especificada, s&#39;ha suprimit"
+    uris_title: "Este tema es mostrarà durant tota la següent URL"
+    use_domain_themes: "El tema actual serà determinada per la URL especificada amb cada un dels temes a continuació."

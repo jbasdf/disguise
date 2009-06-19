@@ -2,8 +2,17 @@
 sl: 
   disguise: 
     activate_theme_message: "Kliknite na temo, da jo aktivirate"
+    add_uri: Dodati
     current_theme: "Trenutne teme"
+    delete_uri: Izbrisati
+    error_creating_domain_theme: "Prišlo je do težave pri dodajanju URL: {{error}}"
     no_current_theme: "Trenutno nobena tema je bila izbrana za to vlogo in tako privzeto uporabi namenom se bodo uporabljali."
     no_themes_message: "Še niste ustvarili nobenih teme za vašo prijavo. Če želite ustvariti novo temo, preprosto zaženite theme generator in sledite navodilom:"
+    remove_all_themes: "Odstrani vse teme in uporabite privzeto uporabi predloge"
     set_theme: "Nastavljanje teme"
     theme_updated: "Tema je bila uspeÅ ¡no posodobljen."
+    theme_uri_label: "Url za teme"
+    update_uri: "Posodobi URL"
+    uri_deleted: "Na navedenem URL-ju je bil izbrisan"
+    uris_title: "Ta tema bo prikazana, za vse naslednje URL-je"
+    use_domain_themes: "Trenutna tema bo določena po url določeno z vsako temo spodaj."

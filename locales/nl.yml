@@ -2,8 +2,17 @@
 nl: 
   disguise: 
     activate_theme_message: "Klik op een thema te activeren"
+    add_uri: Toevoegen
     current_theme: "Huidig Thema"
+    delete_uri: Wissen
+    error_creating_domain_theme: "Er een probleem was het toevoegen van de url: {{error}}"
     no_current_theme: "Momenteel geen thema is gekozen voor deze toepassing en dus de standaard weergave worden gebruikt."
     no_themes_message: "U nog geen thema&#39;s voor uw toepassing. Wilt u een nieuw thema als u het thema generator en volg de instructies:"
+    remove_all_themes: "Verwijder alle thema&#39;s en gebruiken dat standaard sjablonen"
     set_theme: "Stel Thema"
     theme_updated: "Thema is bijgewerkt."
+    theme_uri_label: "Url voor Thema"
+    update_uri: "Update Url"
+    uri_deleted: "De opgegeven URL is geschrapt"
+    uris_title: "Dit thema zal worden weergegeven voor de volgende URL&#39;s"
+    use_domain_themes: "Het huidige thema zal worden bepaald door de url gespecificeerd met elk thema hieronder."

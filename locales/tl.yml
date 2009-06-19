@@ -2,8 +2,17 @@
 tl: 
   disguise: 
     activate_theme_message: "Mag-click sa isang tema upang buhayin ito"
+    add_uri: Magdagdag
     current_theme: "Kasalukuyang Theme"
+    delete_uri: Tanggalin
+    error_creating_domain_theme: "Nagkaroon ng problema ang pagdaragdag ng url: {{error}}"
     no_current_theme: "Kasalukuyang walang tema na ito ay napili para sa aplikasyon na ito at sa gayon ang mga default na aplikasyon tingnan ang gagamitin."
     no_themes_message: "Hindi mo pa ng anumang mga tema para sa iyong application. Kung nais mong lumikha ng isang bagong tema lamang patakbuhin ang tema dyeneretor at sundin ang mga tagubilin:"
+    remove_all_themes: "Tanggalin ang lahat ng tema at gamitin ang mga default na template ng aplikasyon"
     set_theme: "Itakda ang Theme"
     theme_updated: "Tema ay matagumpay na na-update."
+    theme_uri_label: "Url para sa mga Theme"
+    update_uri: "I-update ang Url"
+    uri_deleted: "Ang tinukoy na ng url na ito ay tinanggal na"
+    uris_title: "Ang tema ay ipapakita para sa lahat ng mga sumusunod na mga url"
+    use_domain_themes: "Ang kasalukuyang tema ay natutukoy sa pamamagitan ng url na tinukoy sa bawat tema sa ibaba."

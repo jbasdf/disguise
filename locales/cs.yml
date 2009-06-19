@@ -2,8 +2,17 @@
 cs: 
   disguise: 
     activate_theme_message: "Klikněte na téma pro jeho aktivaci"
+    add_uri: Přidat
     current_theme: "Aktuální téma"
+    delete_uri: Odstranit
+    error_creating_domain_theme: "Došlo k problému při přidání url: {{error}}"
     no_current_theme: "V současné době žádné téma bylo vybráno pro tuto aplikaci a tak výchozí zobrazení aplikace budou použity."
     no_themes_message: "Vy ještě nemáte vytvořen jakékoliv témata pro vaše aplikace. Pokud chcete vytvořit nové téma jednoduše spustit generátor téma a postupujte podle návodu:"
+    remove_all_themes: "Odebrání všech témat a použití výchozí šablony aplikace"
     set_theme: "Nastavit Témata"
     theme_updated: "Téma bylo úspěšně aktualizováno."
+    theme_uri_label: "Url k tématu"
+    update_uri: "Update Url"
+    uri_deleted: "Zadaný url byl smazán"
+    uris_title: "Toto téma se zobrazí všechny následující adresy URL"
+    use_domain_themes: "Aktuální téma bude stanoveno podle url uvedené u každého tématu níže."

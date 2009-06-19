@@ -2,8 +2,17 @@
 da: 
   disguise: 
     activate_theme_message: "Klik på et tema for at aktivere den"
+    add_uri: Tilføj
     current_theme: "Nuværende tema"
-    no_current_theme: "I øjeblikket ingen tema er blevet udvalgt til denne ansøgning, og så standard ansøgning opfattelse vil blive anvendt."
+    delete_uri: Slet
+    error_creating_domain_theme: "Der var et problem at tilføje url: {{error}}"
+    no_current_theme: "Øjeblikket ingen tema er valgt hertil ansøgning osv. standardnavnet ansøgning visning anvendes."
     no_themes_message: "Du har endnu ikke oprettet nogen temaer for din ansøgning. Hvis du vil oprette et nyt emne, skal du blot køre den tema-generator, og følg vejledningen:"
+    remove_all_themes: "Fjern alle temaer og bruge standard ansøgning skabeloner"
     set_theme: "Indstil Theme"
     theme_updated: "Tema var blevet opdateret."
+    theme_uri_label: "Url for Theme"
+    update_uri: "Update Url"
+    uri_deleted: "Den angivne webadresse er blevet slettet"
+    uris_title: "Dette tema vil blive vist for alle de følgende webadresser"
+    use_domain_themes: "Den aktuelle tema vil blive bestemt af url angivet med hvert emne nedenfor."

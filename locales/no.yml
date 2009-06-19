@@ -3,8 +3,17 @@
 : 
   disguise: 
     activate_theme_message: "Klikk på et tema for å aktivere den"
+    add_uri: "Legge til"
     current_theme: "Aktuelle tema"
+    delete_uri: Slette
+    error_creating_domain_theme: "Det var et problem at url: {{error}}"
     no_current_theme: "Foreløpig ingen tema er valgt for dette programmet, og så standard program visning vil bli brukt."
     no_themes_message: "Du har ennå ikke opprettet noen temaer for din søknad. Hvis du vil opprette et nytt tema rett og slett kjøre theme generator og følg instruksjonene:"
+    remove_all_themes: "Fjern alle temaer og bruke standard program maler"
     set_theme: "Set Theme"
     theme_updated: "Temaet ble oppdatert."
+    theme_uri_label: "Webadressen for Theme"
+    update_uri: "Update Url"
+    uri_deleted: "Den angitte nettadressen er slettet"
+    uris_title: "Dette temaet vil bli vist for alle de følgende webadresser"
+    use_domain_themes: "Gjeldende tema vil bli bestemt av url spesifisert med hvert tema nedenfor."

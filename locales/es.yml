@@ -2,8 +2,17 @@
 es: 
   disguise: 
     activate_theme_message: "Haga clic en un tema para activarlo"
+    add_uri: Agregar
     current_theme: "Tema actual"
+    delete_uri: Borrar
+    error_creating_domain_theme: "Ha habido un problema al añadir la url: {{error}}"
     no_current_theme: "Momento, no hay ningún tema ha sido seleccionado para esta aplicación y por lo que la vista de aplicación por defecto será usada."
     no_themes_message: "Usted aún no ha creado ninguna temas para su aplicación. Si desea crear un nuevo tema simplemente ejecute el tema generador y siga las instrucciones:"
+    remove_all_themes: "Quite todos los temas y el uso por defecto plantillas de aplicación"
     set_theme: "Establecer Tema"
     theme_updated: "Tema se ha actualizado."
+    theme_uri_label: "Url de Tema"
+    update_uri: "Actualización Url"
+    uri_deleted: "La URL especificada, se ha suprimido"
+    uris_title: "Este tema se mostrará durante toda la siguiente URL"
+    use_domain_themes: "El tema actual será determinada por la URL especificada con cada uno de los temas a continuación."
