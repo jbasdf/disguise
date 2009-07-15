@@ -4,7 +4,7 @@ class DomainTheme < ActiveRecord::Base
   
   class << self
     def use_domain_themes?
-      USE_DOMAIN_FOR_THEMES
+      Disguise::USE_DOMAIN_FOR_THEMES
     end
   
     def get_theme(request)

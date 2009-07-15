@@ -48,12 +48,8 @@ Disguise can run in two modes.  The first is the default which let's an administ
 via the built in admin interface.  The second looks at the url of the incoming request and matches it to a theme.
 To enable this second mode create an initializer in /config/initializers/disguise.rb and enter the following contents:
 
-  USE_DOMAIN_FOR_THEMES = true
+  Disguise::USE_DOMAIN_FOR_THEMES = true
 
-== Tests
-Tests require the gem installed before running.  In addition, if you change any of the code
-you will need to run rake install before testing.
-  
 == Copyright
 
 Copyright (c) 2009 Justin Ball. See LICENSE for details.
