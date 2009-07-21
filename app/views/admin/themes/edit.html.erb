@@ -8,7 +8,7 @@
       <%= render :partial => 'admin/themes/theme', :object => @current_theme %>      
       <% form_for @theme, :url => admin_theme_path, :html => { :method => :put } do |f| -%>
         <%= f.hidden_field :name, :value => '' %>
-        <%= submit_tag t('disguise.remove_all_themes') %>
+        <%= submit_tag t('disguise.remove_all_themes'), :id => 'remove_all_themes' %>
       <% end -%>
     <% else -%>
       <%= t('disguise.no_current_theme') %>

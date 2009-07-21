@@ -16,3 +16,4 @@ en:
     uris_title: "This theme will be displayed for all the following urls"
     error_creating_domain_theme: "There was a problem adding the url: {{error}}"
     uri_deleted: "The specified url has been deleted"
+    theme_removed: "All themes have been removed"

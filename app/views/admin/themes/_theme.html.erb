@@ -2,7 +2,7 @@
   <h3><%= theme[:name] %></h3>
   <% form_for @theme, :url => admin_theme_path, :html => { :method => :put } do |f| -%>
   	<%= f.hidden_field :name, :value => theme[:name] %>
-  	<%= image_submit_tag theme[:preview_image] %>
+  	<%= image_submit_tag theme[:preview_image], :id => "set_theme_#{@theme.id}" %>
   	<%= theme[:description] %>
   <% end -%>
   <% if DomainTheme.use_domain_themes? -%>

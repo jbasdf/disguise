@@ -21,7 +21,11 @@ class Admin::Disguise::ThemesController < ApplicationController
   def update
     @theme.update_attributes!(params[:theme])
     respond_to do |format|
-      flash[:notice] = t('disguise.theme_updated')
+      if @theme.name.blank?
+        flash[:notice] = t('disguise.theme_removed')
+      else
+        flash[:notice] = t('disguise.theme_updated')
+      end
       format.html { redirect_to edit_admin_theme_path }
     end
   end
