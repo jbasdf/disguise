@@ -2,10 +2,9 @@ require File.dirname(__FILE__) + '/../../test_helper'
 
 class Admin::DomainThemesControllerTest < ActionController::TestCase
 
+  tests Admin::DomainThemesController
+  
   def setup
-    @controller = Admin::DomainThemesController.new
-    @request    = ActionController::TestRequest.new
-    @response   = ActionController::TestResponse.new
     @new_uri = 'red.example.com'
   end
   
@@ -34,5 +33,15 @@ class Admin::DomainThemesControllerTest < ActionController::TestCase
     should_set_the_flash_to(I18n.t("disguise.theme_updated"))
     should_redirect_to("edit theme") { edit_admin_theme_path }
   end
+  
+  context "DELETE to destroy" do
+    setup do
+      @domain_theme = Factory(:domain_theme)
+      delete :destroy, :id => @domain_theme.to_param
+    end
+    should_set_the_flash_to(I18n.t('disguise.uri_deleted'))
+    should_redirect_to("admin edit theme") { edit_admin_theme_path }
+  end
+  
   
 end
