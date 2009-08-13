@@ -1,0 +1,20 @@
+--- 
+gl: 
+  disguise: 
+    activate_theme_message: "Prema nun tema para activa-la"
+    add_uri: Engadir
+    current_theme: "Tema actual"
+    delete_uri: Eliminar
+    error_creating_domain_theme: "Houbo un erro engadindo o url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Actualmente, non ten sido tema elixido para esta aplicación e, polo tanto, a aplicación por defecto vista será utilizado."
+    no_themes_message: "Aínda non creaches ningún temas para a súa aplicación. Se quere crear un novo tema basta con executar o tema Xerador e siga as instruccións:"
+    remove_all_themes: "Eliminar todos os temas e utilizar modelos aplicación por defecto"
+    set_theme: "Configurar tema"
+    theme_removed: "Todos os temas teñen sido eliminado"
+    theme_updated: "Tema foi actualizado."
+    theme_uri_label: "Url para tema"
+    update_uri: "Actualizar URL"
+    uri_deleted: "A URL especificado, foi suprimida"
+    uris_title: "Este tema será presentado a todos os seguintes URLs"
+    use_domain_themes: "O actual tema será determinado pola URL especificado con cada tema seguinte."

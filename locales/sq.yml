@@ -1,0 +1,20 @@
+--- 
+sq: 
+  disguise: 
+    activate_theme_message: "Kliko në një temë të aktivizojë atë"
+    add_uri: Shtoj
+    current_theme: "Current Theme"
+    delete_uri: Fshij
+    error_creating_domain_theme: "Ka ndodhur një problem duke shtuar se url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Aktualisht nuk ka qenë temë e zgjedhur për këtë kërkesë dhe kështu që default view aplikimit do të përdoren."
+    no_themes_message: "Ju ende nuk e kanë krijuar ndonjë temat për kërkesën tuaj. Nëse ju dëshironi të krijoni një temë të re thjesht drejtuar theme gjenerator dhe ndiqni udhëzimet:"
+    remove_all_themes: "Hiq të gjitha temat dhe të përdorni default application templates"
+    set_theme: "Set Theme"
+    theme_removed: "Të gjitha temat janë hequr"
+    theme_updated: "Theme u ri-freskua me sukses."
+    theme_uri_label: "URL për Theme"
+    update_uri: "Update URL"
+    uri_deleted: "Url e përcaktuar është fshirë"
+    uris_title: "Kjo temë do të shfaqen për të gjitha këto URLs"
+    use_domain_themes: "Tema e tanishme do të përcaktohet nga url specifikuara me çdo temë me poshte."

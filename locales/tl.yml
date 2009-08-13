@@ -6,10 +6,12 @@ tl:
     current_theme: "Kasalukuyang Theme"
     delete_uri: Tanggalin
     error_creating_domain_theme: "Nagkaroon ng problema ang pagdaragdag ng url: {{error}}"
+    name_theme: ~
     no_current_theme: "Kasalukuyang walang tema na ito ay napili para sa aplikasyon na ito at sa gayon ang mga default na aplikasyon tingnan ang gagamitin."
     no_themes_message: "Hindi mo pa ng anumang mga tema para sa iyong application. Kung nais mong lumikha ng isang bagong tema lamang patakbuhin ang tema dyeneretor at sundin ang mga tagubilin:"
     remove_all_themes: "Tanggalin ang lahat ng tema at gamitin ang mga default na template ng aplikasyon"
     set_theme: "Itakda ang Theme"
+    theme_removed: "Lahat ng mga tema ay tinanggal"
     theme_updated: "Tema ay matagumpay na na-update."
     theme_uri_label: "Url para sa mga Theme"
     update_uri: "I-update ang Url"

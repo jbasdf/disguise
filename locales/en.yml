@@ -2,17 +2,17 @@ en:
   disguise:
     theme_updated: "Theme was successfully updated."
     no_themes_message: "You have not yet created any themes for your application. If you would like to create a new theme simply run the theme generator and follow the instructions:"
-    set_theme: Set Theme
-    current_theme: Current Theme
+    set_theme: "Set Theme"
+    current_theme: "Current Theme"
     activate_theme_message: Click on a theme to activate it
     no_current_theme: "Currently no theme has been selected for this application and so the default application view will be used."
     use_domain_themes: "The current theme will be determined by the url specified with each theme below."
     name_theme: ""
-    update_uri: Update Url
-    add_uri: Add
-    delete_uri: Delete
+    update_uri: "Update Url"
+    add_uri: "Add"
+    delete_uri: "Delete"
     remove_all_themes: "Remove all themes and use default application templates"
-    theme_uri_label: Url for Theme
+    theme_uri_label: "Url for Theme"
     uris_title: "This theme will be displayed for all the following urls"
     error_creating_domain_theme: "There was a problem adding the url: {{error}}"
     uri_deleted: "The specified url has been deleted"

@@ -6,10 +6,12 @@ ko:
     current_theme: "현재 테마"
     delete_uri: 삭제
     error_creating_domain_theme: "이 문제는 URL을 추가 : {{error}}했다"
+    name_theme: ~
     no_current_theme: "현재이 응용 프로그램을위한 주제와 기본 응용 프로그램을 볼 수 있도록 사용됩니다 선정됐다."
     no_themes_message: "당신이 아직 귀하의 응용 프로그램에 대한 모든 주제를 작성하지 않았습니다. 만약 당신이 새로운 테마를 단순히 테마 발전기를 실행하고 지침에 따라 작성하고 싶습니다 :"
     remove_all_themes: "테마와 템플릿을 사용하는 모든 기본 응용 프로그램 제거"
     set_theme: "테마 설정"
+    theme_removed: "모든 주제가 삭제되었습니다"
     theme_updated: "테마가 성공적으로 업데이 트했습니다."
     theme_uri_label: "URL이 테마에 대한"
     update_uri: "업데이트 URL을"

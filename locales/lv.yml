@@ -6,10 +6,12 @@ lv:
     current_theme: "Current Theme"
     delete_uri: Dzēst
     error_creating_domain_theme: "Radās problēma, pievienojot url: {{error}}"
+    name_theme: ~
     no_current_theme: "Pašlaik nav tēma ir izvēlēts šo pieteikumu un tā noklusējuma piemērošanas nolūkā tiks izmantota."
     no_themes_message: "Jūs vēl neesat izveidojis nevienu tēmas savu pieteikumu. Ja vēlaties izveidot jaunu tēmu vienkārši palaist tēmu ģenerators un izpildiet instrukcijas:"
     remove_all_themes: "Noņemt visas tēmas un izmantot noklusējuma pieteikumu veidnes"
     set_theme: "Set Theme"
+    theme_removed: "Visas tēmas ir novērstas"
     theme_updated: "Tēma ir veiksmīgi atjaunināts."
     theme_uri_label: "URL Theme"
     update_uri: "Update Url"

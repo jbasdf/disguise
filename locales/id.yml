@@ -1,0 +1,20 @@
+--- 
+id: 
+  disguise: 
+    activate_theme_message: "Klik pada tema untuk mengaktifkannya"
+    add_uri: Tambah
+    current_theme: "Peristiwa Theme"
+    delete_uri: Menghapus
+    error_creating_domain_theme: "Terjadi masalah menambahkan url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Saat ini tidak ada tema telah dipilih untuk aplikasi ini dan seterusnya melihat aplikasi default akan digunakan."
+    no_themes_message: "Anda belum membuat tema untuk aplikasi Anda. Jika Anda ingin membuat theme baru hanya menjalankan tema generator dan ikuti petunjuk:"
+    remove_all_themes: "Hapus semua tema dan menggunakan aplikasi default template"
+    set_theme: "Menetapkan Theme"
+    theme_removed: "Semua tema yang telah dihapus"
+    theme_updated: "Theme berhasil diubah."
+    theme_uri_label: "Url Theme"
+    update_uri: "Update Url"
+    uri_deleted: "Url yang ditentukan telah dihapus"
+    uris_title: "Tema ini akan ditampilkan untuk semua url berikut"
+    use_domain_themes: "Tema yang sekarang akan ditentukan oleh masing-masing url ditetapkan dengan tema di bawah ini."

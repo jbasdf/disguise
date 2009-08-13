@@ -6,10 +6,12 @@ sv:
     current_theme: "Aktuella teman"
     delete_uri: "Ta bort"
     error_creating_domain_theme: "Det uppstod ett problem att lägga till URL: {{error}}"
+    name_theme: ~
     no_current_theme: "För närvarande finns inga tema har valts ut för denna ansökan och så standardnamnet ansökan syfte att användas."
     no_themes_message: "Du har ännu inte skapat några teman för din ansökan. Om du vill skapa ett nytt tema kör helt enkelt temat generator och följ instruktionerna:"
     remove_all_themes: "Ta bort alla teman och använda standard ansökan mallar"
     set_theme: "Ställ Tema"
+    theme_removed: "Alla teman har tagits bort"
     theme_updated: "Tema har uppdaterats."
     theme_uri_label: "Url för Tema"
     update_uri: "Uppdatering Url"

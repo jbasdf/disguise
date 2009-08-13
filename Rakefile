@@ -2,6 +2,12 @@ require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
 
+desc 'Translate this gem'
+task :translate do
+  file = File.join(File.dirname(__FILE__), 'locales', 'en.yml')
+  system("babelphish -o -y #{file}")
+end
+
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|

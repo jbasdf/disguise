@@ -6,10 +6,12 @@ ro:
     current_theme: "Tematica curenta"
     delete_uri: Şterge
     error_creating_domain_theme: "A apărut o problemă la adăugarea URL: {{error}}"
+    name_theme: ~
     no_current_theme: "În prezent, nici o tema a fost selectat pentru această cerere şi deci implicit de aplicare a vizualiza va fi folosit."
     no_themes_message: "Încă nu aţi creat nici teme pentru cererea dumneavoastră. Dacă doriţi să creaţi o nouă temă pur şi simplu rulaţi tema generator şi urmaţi instrucţiunile:"
     remove_all_themes: "Eliminaţi toate temele şi de a folosi implicit şabloanele de aplicare"
     set_theme: "Setare Tematica"
+    theme_removed: "Toate temele au fost eliminate"
     theme_updated: "Tematica a fost actualizat cu succes."
     theme_uri_label: "URL-ul pentru Tematica"
     update_uri: "Update Url"

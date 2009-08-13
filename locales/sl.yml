@@ -6,10 +6,12 @@ sl:
     current_theme: "Trenutne teme"
     delete_uri: Izbrisati
     error_creating_domain_theme: "Prišlo je do težave pri dodajanju URL: {{error}}"
+    name_theme: ~
     no_current_theme: "Trenutno nobena tema je bila izbrana za to vlogo in tako privzeto uporabi namenom se bodo uporabljali."
     no_themes_message: "Še niste ustvarili nobenih teme za vašo prijavo. Če želite ustvariti novo temo, preprosto zaženite theme generator in sledite navodilom:"
     remove_all_themes: "Odstrani vse teme in uporabite privzeto uporabi predloge"
     set_theme: "Nastavljanje teme"
+    theme_removed: "Vse teme so bile odstranjene"
     theme_updated: "Tema je bila uspeÅ ¡no posodobljen."
     theme_uri_label: "Url za teme"
     update_uri: "Posodobi URL"

@@ -6,10 +6,12 @@ vi:
     current_theme: "Chủ đề hiện tại"
     delete_uri: Xoá
     error_creating_domain_theme: "Có một vấn đề khi thêm các địa chỉ: {{error}}"
+    name_theme: ~
     no_current_theme: "Hiện không có chủ đề đã được lựa chọn cho các ứng dụng này và vì vậy các ứng dụng mặc định xem sẽ được sử dụng."
     no_themes_message: "Bạn chưa tạo ra bất kỳ chủ đề cho các ứng dụng của bạn. Nếu bạn muốn tạo ra một chủ đề mới chủ đề đơn giản hãy chạy máy phát điện và làm theo hướng dẫn:"
     remove_all_themes: "Hủy bỏ tất cả các chủ đề và sử dụng các ứng dụng mặc định mẫu"
     set_theme: "Đặt Chủ đề"
+    theme_removed: "Tất cả các chủ đề đã được gỡ bỏ"
     theme_updated: "Chủ đề đã được cập nhật."
     theme_uri_label: "Url cho Chủ đề"
     update_uri: "Cập nhật Url"
