@@ -5,16 +5,16 @@ zh:
     add_uri: 添加
     current_theme: 当前主题
     delete_uri: 删除
-    error_creating_domain_theme: "有一个问题，增加了网址： {{error}}"
+    error_creating_domain_theme: "有一个问题，添加网址：{{error}}"
     name_theme: ~
-    no_current_theme: 目前没有任何主题已选定此应用程序和应用程序的默认视图将被使用。
-    no_themes_message: 您尚未创建任何主题为您的应用程序。如果你想创建一个新的主题只要执行主题发电机，并按照指示：
-    remove_all_themes: 移除所有的主题，并使用默认应用程序模板
+    no_current_theme: 目前还没有选定了主题为这个应用程序，所以默认的应用程序视图将被使用。
+    no_themes_message: 您尚未为您的应用程序的任何主题。如果你想创建一个新的主题，只需运行的主题发电机，并按照指示：
+    remove_all_themes: 模板删除所有的主题，并使用默认的应用程序
     set_theme: 设置主题
     theme_removed: 所有主题已被删除
     theme_updated: 主题是成功更新。
     theme_uri_label: 网址为主题
-    update_uri: 更新网址
+    update_uri: 更新URL
     uri_deleted: 指定的URL已被删除
     uris_title: 这一主题将显示所有以下网址
-    use_domain_themes: 目前的主题将取决于指定的网址与每个主题下面。
+    use_domain_themes: 目前的主题，将取决于每个主题下面指定的URL。

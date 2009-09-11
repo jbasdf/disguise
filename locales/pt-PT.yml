@@ -1,20 +1,20 @@
 --- 
 pt-PT: 
   disguise: 
-    activate_theme_message: "Clique em um tema para ativá-la"
+    activate_theme_message: "Clique em um tema para ativá-lo"
     add_uri: Adicionar
-    current_theme: "Tema atual"
+    current_theme: "Tema Atual"
     delete_uri: Excluir
-    error_creating_domain_theme: "Houve um problema adicionando o url: {{error}}"
+    error_creating_domain_theme: "Houve um problema ao adicionar a url: {{error}}"
     name_theme: ~
-    no_current_theme: "Actualmente, não tem sido tema escolhido para esta aplicação e, portanto, a aplicação padrão vista será utilizado."
-    no_themes_message: "Você ainda não criou nenhum temas para a sua aplicação. Se você gostaria de criar um novo tema basta executar o tema gerador e siga as instruções:"
-    remove_all_themes: "Remova todos os temas e utilizar modelos aplicação padrão"
-    set_theme: "Configurar tema"
-    theme_removed: "Todos os temas têm sido removido"
-    theme_updated: "Tema foi atualizado."
-    theme_uri_label: "Url para Tema"
-    update_uri: "Atualizar URL"
-    uri_deleted: "O URL especificado, foi suprimida"
-    uris_title: "Este tema será apresentado para todos os seguintes URLs"
-    use_domain_themes: "O actual tema será determinado pela URL especificado com cada tema abaixo."
+    no_current_theme: "Atualmente, nenhum tema foi selecionado para esta aplicação e assim a visualização do aplicativo padrão será usado."
+    no_themes_message: "Você ainda não criou nenhum temas para sua aplicação. Se você gostaria de criar um novo tema basta executar o tema gerador e siga as instruções:"
+    remove_all_themes: "Remova todos os temas e aplicativos padrão utilizar modelos"
+    set_theme: "Definir Tema"
+    theme_removed: "Todos os temas foram removidos"
+    theme_updated: "Tema foi atualizada com sucesso."
+    theme_uri_label: "Url para o Tema"
+    update_uri: "Atualização Url"
+    uri_deleted: "A URL especificada foi excluída"
+    uris_title: "Este tema será apresentado para todos os URLs a seguir"
+    use_domain_themes: "O tema do curso será determinado pela URL especificado com cada tema a seguir."

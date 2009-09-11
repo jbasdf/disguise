@@ -1,20 +1,20 @@
 --- 
 et: 
   disguise: 
-    activate_theme_message: "Vajuta teema selle aktiveerida"
+    activate_theme_message: "Vajuta teema aktiveerida"
     add_uri: Lisama
     current_theme: "Praegune teema"
     delete_uri: Kustutama
-    error_creating_domain_theme: "Probleem lisades url: {{error}}"
+    error_creating_domain_theme: "Probleem lisamisega URL: {{error}}"
     name_theme: ~
-    no_current_theme: "Praegu ei ole teema on valitud käesoleva taotluse ja nii vaikimisi rakendus arvates hakatakse kasutama."
-    no_themes_message: "Sa ei ole veel loonud ühtegi teemat sovellukseenne. Kui soovid luua uue teema lihtsalt käivitage teema generaator ja järgige juhiseid:"
-    remove_all_themes: "Eemalda kõik teemad ja kasutada vaikimisi application templates"
-    set_theme: "Set Theme"
+    no_current_theme: "Praegu ei ole teema on valitud käesolevas taotluses ja nii vaikerakendus vaatamiseks kasutatakse."
+    no_themes_message: "Sa ei ole veel loonud teemat Teie taotlus. Kui soovite luua uue teema lihtsalt kulgema teema generaator ja järgige juhiseid:"
+    remove_all_themes: "Kustuta kõik teemad ja kasutada vaikerakendus malle"
+    set_theme: "Set teema"
     theme_removed: "Kõik teemad on eemaldatud"
-    theme_updated: "Theme edukalt uuendatud."
-    theme_uri_label: "URL Theme"
-    update_uri: "Update Url"
-    uri_deleted: "Määratletud url on kustutatud"
-    uris_title: "Kõnealune teema kuvatakse kõik järgmised veebiaadresse"
-    use_domain_themes: "Praegune teema poolt määratud url täpsustatud iga teema all."
+    theme_updated: "Teema oli edukalt uuendatud."
+    theme_uri_label: "URL teema"
+    update_uri: "Seisuga Url"
+    uri_deleted: "Määratletud URL on kustutatud"
+    uris_title: "See teema kuvatakse kõik järgmised URL-id"
+    use_domain_themes: "Praegune teema on määratud URL-iga teema alla."

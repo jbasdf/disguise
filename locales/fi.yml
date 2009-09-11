@@ -1,20 +1,20 @@
 --- 
 fi: 
   disguise: 
-    activate_theme_message: "Klikkaa teeman aktivoida se"
+    activate_theme_message: "Klikkaa teema aktivoida sen"
     add_uri: Lisää
-    current_theme: "Nykyinen Theme"
+    current_theme: Teeman
     delete_uri: Poistaa
-    error_creating_domain_theme: "Ongelma lisäämällä url: {{error}}"
+    error_creating_domain_theme: "Oli ongelma lisäämällä URL: {{error}}"
     name_theme: ~
-    no_current_theme: "Tällä hetkellä ei ole teema on valittu tämän hakemuksen joten oletussovellus näkymä käyttää."
-    no_themes_message: "Et ole vielä luonut teemoja hakemukseen. Jos haluat luoda uuden teeman yksinkertaisesti suorittaa teema generaattori ja seuraa ohjeita:"
-    remove_all_themes: "Poista kaikki aiheet ja käyttö oletussovellus templates"
-    set_theme: "Aseta Theme"
+    no_current_theme: "Tällä hetkellä ei teema on valittu tämän hakemuksen ja niin oletussovellus mielestä käytetään."
+    no_themes_message: "Et ole vielä luonut teemoja hakemuksen. Jos haluat luoda uuden teeman vain ajaa teema generaattori ja seuraa ohjeita:"
+    remove_all_themes: "Poista kaikki teemat ja käyttää oletussovellus malleja"
+    set_theme: "Aseta teema"
     theme_removed: "Kaikki aiheet on poistettu"
-    theme_updated: "Aihepiiri oli onnistuneesti päivitetty."
-    theme_uri_label: "Url, Theme"
-    update_uri: "Päivitä Url"
-    uri_deleted: "Määritetty URL-osoite on poistettu"
-    uris_title: "Tämä teema näkyy kaikki seuraavat URL-osoitteita"
-    use_domain_themes: "Nykyinen teema määräytyy url eriteltävä kunkin teeman alla."
+    theme_updated: "Teemana oli onnistuneesti päivitetty."
+    theme_uri_label: "URL Theme"
+    update_uri: "Päivityksen Url"
+    uri_deleted: "Määritetyn URL-osoitteen on poistettu"
+    uris_title: "Tämä teema on esillä kaikki seuraavista URL-osoitteista"
+    use_domain_themes: "Teeman määräytyy URL määritelty kunkin teeman alla."

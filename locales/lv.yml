@@ -1,20 +1,20 @@
 --- 
 lv: 
   disguise: 
-    activate_theme_message: "Klikšķiniet uz tēmas, lai aktivizētu"
+    activate_theme_message: "Noklikšķiniet uz tēmu to aktivizēt"
     add_uri: Pievienot
     current_theme: "Current Theme"
     delete_uri: Dzēst
-    error_creating_domain_theme: "Radās problēma, pievienojot url: {{error}}"
+    error_creating_domain_theme: "Radās problēma pievienojot url: {{error}}"
     name_theme: ~
-    no_current_theme: "Pašlaik nav tēma ir izvēlēts šo pieteikumu un tā noklusējuma piemērošanas nolūkā tiks izmantota."
-    no_themes_message: "Jūs vēl neesat izveidojis nevienu tēmas savu pieteikumu. Ja vēlaties izveidot jaunu tēmu vienkārši palaist tēmu ģenerators un izpildiet instrukcijas:"
-    remove_all_themes: "Noņemt visas tēmas un izmantot noklusējuma pieteikumu veidnes"
+    no_current_theme: "Pašreiz nav tēma ir izvēlēta par šo pieteikumu un tā noklusējuma pieteikumu uzskata, tiks izmantota."
+    no_themes_message: "Jūs vēl neesat izveidojis nevienu jūsu pieteikumu tēmām. Ja jūs vēlaties izveidot jaunu tēmu vienkārši palaist tēmu ģenerators un izpildiet instrukcijas:"
+    remove_all_themes: "Noņemt visas tēmas un izmantot noklusēto pieteikumu veidnes"
     set_theme: "Set Theme"
     theme_removed: "Visas tēmas ir novērstas"
     theme_updated: "Tēma ir veiksmīgi atjaunināts."
     theme_uri_label: "URL Theme"
-    update_uri: "Update Url"
-    uri_deleted: "Norādītie url ir izdzēsts"
-    uris_title: "Šī tēma tiks parādīti visiem šādi URL"
-    use_domain_themes: "Pašreizējā tēma tiks noteiktas ar url norādīta ar katru theme turpmāk."
+    update_uri: "Update URL"
+    uri_deleted: "Norādīto URL ir izdzēsta"
+    uris_title: "Šī tēma tiks parādīti visi šādi URL"
+    use_domain_themes: "Pašreizējā tēma tiks noteikti url norādīta ar katras tēmas zemāk."

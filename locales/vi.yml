@@ -1,20 +1,20 @@
 --- 
 vi: 
   disguise: 
-    activate_theme_message: "Click chuột vào một chủ đề để kích hoạt nó"
+    activate_theme_message: "Nhấp vào một chủ đề để kích hoạt nó"
     add_uri: Thêm
-    current_theme: "Chủ đề hiện tại"
+    current_theme: "Chủ đề hiện hành"
     delete_uri: Xoá
-    error_creating_domain_theme: "Có một vấn đề khi thêm các địa chỉ: {{error}}"
+    error_creating_domain_theme: "Có vấn đề thêm url: {{error}}"
     name_theme: ~
-    no_current_theme: "Hiện không có chủ đề đã được lựa chọn cho các ứng dụng này và vì vậy các ứng dụng mặc định xem sẽ được sử dụng."
-    no_themes_message: "Bạn chưa tạo ra bất kỳ chủ đề cho các ứng dụng của bạn. Nếu bạn muốn tạo ra một chủ đề mới chủ đề đơn giản hãy chạy máy phát điện và làm theo hướng dẫn:"
-    remove_all_themes: "Hủy bỏ tất cả các chủ đề và sử dụng các ứng dụng mặc định mẫu"
-    set_theme: "Đặt Chủ đề"
+    no_current_theme: "Hiện nay không có chủ đề được chọn cho các ứng dụng này và vì vậy xem ứng dụng mặc định sẽ được sử dụng."
+    no_themes_message: "Bạn chưa tạo ra bất kỳ chủ đề cho ứng dụng của bạn. Nếu bạn muốn tạo một chủ đề mới chỉ cần chạy máy phát điện chủ đề và làm theo hướng dẫn:"
+    remove_all_themes: "Hủy bỏ tất cả các chủ đề và các ứng dụng mặc định sử dụng các mẫu"
+    set_theme: "Set Theme"
     theme_removed: "Tất cả các chủ đề đã được gỡ bỏ"
-    theme_updated: "Chủ đề đã được cập nhật."
-    theme_uri_label: "Url cho Chủ đề"
+    theme_updated: "Chủ đề được cập nhật thành công."
+    theme_uri_label: "Url cho Theme"
     update_uri: "Cập nhật Url"
-    uri_deleted: "Việc xác định địa chỉ đã được xóa"
-    uris_title: "Chủ đề này sẽ được hiển thị cho tất cả những url"
-    use_domain_themes: "Hiện nay chủ đề sẽ được xác định bởi địa chỉ cụ thể với từng chủ đề dưới đây."
+    uri_deleted: "Url xác định đã bị xóa"
+    uris_title: "Chủ đề này sẽ được hiển thị cho tất cả các url sau"
+    use_domain_themes: "Chủ đề hiện tại sẽ được xác định bởi các url được chỉ định với từng chủ đề dưới đây."

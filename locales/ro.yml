@@ -1,20 +1,20 @@
 --- 
 ro: 
   disguise: 
-    activate_theme_message: "Click pe o temă pentru a activa"
+    activate_theme_message: "Faceţi clic pe o temă la spre activate it"
     add_uri: Adăuga
-    current_theme: "Tematica curenta"
+    current_theme: "Current Theme"
     delete_uri: Şterge
-    error_creating_domain_theme: "A apărut o problemă la adăugarea URL: {{error}}"
+    error_creating_domain_theme: "Nu a fost o problemă adăugând url: {{error}}"
     name_theme: ~
-    no_current_theme: "În prezent, nici o tema a fost selectat pentru această cerere şi deci implicit de aplicare a vizualiza va fi folosit."
-    no_themes_message: "Încă nu aţi creat nici teme pentru cererea dumneavoastră. Dacă doriţi să creaţi o nouă temă pur şi simplu rulaţi tema generator şi urmaţi instrucţiunile:"
-    remove_all_themes: "Eliminaţi toate temele şi de a folosi implicit şabloanele de aplicare"
-    set_theme: "Setare Tematica"
+    no_current_theme: "În prezent, nu tema a fost selectat pentru această cerere şi atât de vizualizare implicit cererea va fi folosit."
+    no_themes_message: "Nu aţi creat încă nici o teme pentru cererea dumneavoastră. Dacă doriţi să creaţi o temă nouă pur şi simplu rulaţi generatorului de temă şi urmaţi instrucţiunile:"
+    remove_all_themes: "Eliminaţi toate temele şi de a folosi aplicatia standard template-uri"
+    set_theme: "Set Tematica"
     theme_removed: "Toate temele au fost eliminate"
     theme_updated: "Tematica a fost actualizat cu succes."
     theme_uri_label: "URL-ul pentru Tematica"
-    update_uri: "Update Url"
+    update_uri: "Update Url-ul"
     uri_deleted: "URL-ul specificat a fost şters"
     uris_title: "Această temă va fi afişat pentru toate URL-urile următoare"
-    use_domain_themes: "Actuala tema va fi stabilită de către URL-ul specificat cu fiecare temă de mai jos."
+    use_domain_themes: "Tema curent va fi determinată de URL-ul specificat cu fiecare temă de mai jos."

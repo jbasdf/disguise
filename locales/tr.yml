@@ -1,20 +1,20 @@
 --- 
 tr: 
   disguise: 
-    activate_theme_message: "Tıklayın etkinleştirmek için bir tema üzerinde"
+    activate_theme_message: "Tıklatın etkin hale getirmek için bir tema üzerinde"
     add_uri: Eklemek
-    current_theme: "Güncel Tema"
+    current_theme: "Geçerli Tema"
     delete_uri: Silmek
-    error_creating_domain_theme: "Bir sorun url&#39;leri ekledi: {{error}} oldu"
+    error_creating_domain_theme: "Bir sorun url eklerken: {{error}} oldu"
     name_theme: ~
-    no_current_theme: "Şu anda herhangi bir temayı bu uygulama ve standart uygulama görüntülemek kullanılan olacak seçildi."
-    no_themes_message: "Henüz başvurunuzu için temalar oluşturmadınız. Eğer yeni bir tema sadece tema jeneratör çalıştırmak ve yönergeleri takip edin oluşturmak istiyoruz:"
+    no_current_theme: "Şu anda hiçbir tema Bu uygulama için ve bu nedenle varsayılan uygulama görünümü kullanılacaktır seçildi."
+    no_themes_message: "Henüz başvuru için herhangi bir temalar oluşturmadınız. Eğer yeni bir tema sadece tema jeneratörü çalıştırın ve talimatları oluşturmak istiyoruz:"
     remove_all_themes: "Tüm temalar ve kullanım varsayılan uygulama Kaldır şablonları"
-    set_theme: "Tema Ayarla"
+    set_theme: Tema
     theme_removed: "Tüm temalar kaldırıldı"
     theme_updated: "Tema başarıyla güncellendi."
     theme_uri_label: "Url Tema için"
-    update_uri: "Güncelleme Url"
+    update_uri: "Güncelleme kes"
     uri_deleted: "Belirtilen URL silindi"
-    uris_title: "Bu tema tüm aşağıdaki URL&#39;ler görüntülenir"
-    use_domain_themes: "Mevcut tema url her tema ile aşağıda belirtilen göre belirlenecektir."
+    uris_title: "Bu temayı tüm aşağıdaki URL&#39;ler için görüntülenir"
+    use_domain_themes: "Geçerli tema url her tema ile aşağıda belirtilen belirlenecektir."

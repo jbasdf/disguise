@@ -1,20 +1,20 @@
 --- 
 th: 
   disguise: 
-    activate_theme_message: คลิกที่ชุดรูปแบบการใช้งาน
+    activate_theme_message: คลิกที่ชุดรูปแบบเพื่อใช้งาน
     add_uri: เพิ่ม
-    current_theme: ปัจจุบันรูป
+    current_theme: ชุดรูปแบบปัจจุบัน
     delete_uri: ลบ
-    error_creating_domain_theme: "มีปัญหาในการเพิ่ม URL ที่: {{error}}"
+    error_creating_domain_theme: "มีปัญหาเพิ่ม url: {{error}} คือ"
     name_theme: ~
-    no_current_theme: ปัจจุบันไม่มีธีมถูกเลือกสำหรับโปรแกรมนี้และเพื่อเริ่มต้นแอปพลิเคชันดูจะใช้.
-    no_themes_message: "คุณยังไม่ได้สร้างธีมใดสำหรับใบสมัครของท่าน. หากคุณต้องการสร้างชุดรูปแบบใหม่เพียงรันธีมไดนาโมและปฏิบัติตามคำแนะนำ:"
-    remove_all_themes: ลบทั้งหมดธีมและใช้แม่แบบเริ่มต้นแอปพลิเคชัน
-    set_theme: ชุดรูปแบบ
-    theme_removed: ธีมทั้งหมดถูกลบออก
-    theme_updated: ที่สำเร็จการปรับปรุง.
-    theme_uri_label: "URL สำหรับรูปแบบ"
-    update_uri: "Url ที่ปรับปรุง"
-    uri_deleted: "URL ที่ระบุได้ถูกลบแล้ว"
-    uris_title: "ชุดรูปแบบนี้จะปรากฏสำหรับทุก URL ต่อไปนี้"
-    use_domain_themes: "ปัจจุบันธีมจะได้รับการพิจารณาโดย URL ที่ระบุไว้กับแต่ละแกนด้านล่าง."
+    no_current_theme: ขณะนี้เรื่องไม่ได้รับเลือกสำหรับโปรแกรมนี้และเพื่อดูการสมัครเริ่มต้นจะใช้.
+    no_themes_message: "คุณยังไม่ได้สร้างธีมสำหรับใบสมัครของคุณ. ถ้าคุณต้องการสร้างชุดรูปแบบใหม่เพียงใช้ทำ theme และปฏิบัติตามคำแนะนำ:"
+    remove_all_themes: ลบรูปแบบและการประยุกต์ใช้ค่าเริ่มต้นแม่แบบ
+    set_theme: "Theme Set"
+    theme_removed: ธีมทั้งหมดถูกลบ
+    theme_updated: "Theme แล้วสำเร็จ."
+    theme_uri_label: "URL สำหรับ Theme"
+    update_uri: "Url Update"
+    uri_deleted: "URL ที่ระบุถูกลบ"
+    uris_title: ชุดรูปแบบนี้จะปรากฏทุกต่างๆต่อไปนี้
+    use_domain_themes: "ชุดรูปแบบปัจจุบันจะพิจารณาจาก URL ที่ระบุกับเรื่องนี้แต่ละ."
