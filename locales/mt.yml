@@ -1,15 +1,15 @@
 --- 
 mt: 
   disguise: 
-    activate_theme_message: "Ikklikkja fuq tema li din tiġi attivata"
+    activate_theme_message: "Ikklikkja fuq tema sabiex jattivaw dan"
     add_uri: Żid
     current_theme: "Current Tema"
     delete_uri: Ħassar
     error_creating_domain_theme: "Kien hemm problema żżid l-url: {{error}}"
     name_theme: ~
-    no_current_theme: "Bħalissa l-ebda tema ntgħażlet għal din l-applikazzjoni u għalhekk l-opinjoni applikazzjoni awtomatika se jkun użat."
+    no_current_theme: "Bħalissa l-ebda tema ntgħażlet għal din l-applikazzjoni u għalhekk il-ħsieb applikazzjoni default se jintużaw."
     no_themes_message: "Inti għadhom ma ħolqux it-temi għall-applikazzjoni tiegħek. Jekk inti tixtieq toħloq tema ġodda sempliċement run-ġeneratur tema u segwi l-istruzzjonijiet:"
-    remove_all_themes: "Neħħi l-temi u l-applikazzjoni default użu templates"
+    remove_all_themes: "Neħħi l temi u applikazzjoni default użu templates"
     set_theme: "Set Tema"
     theme_removed: "It-temi kollha jkunu tneħħew"
     theme_updated: "Tema kienet b&#39;suċċess aġġornata."

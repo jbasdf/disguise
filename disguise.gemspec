@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{disguise}
-  s.version = "0.3.7"
+  s.version = "0.3.8"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2009-08-12}
+  s.date = %q{2009-10-01}
   s.description = %q{Add themes to your Rails application to easily change the view layer and impress everyone you know}
   s.email = %q{justinball@gmail.com}
   s.extra_rdoc_files = [
@@ -92,8 +92,24 @@ Gem::Specification.new do |s|
      "locales/en.yml",
      "locales/es.yml",
      "locales/es.yml",
+     "locales/et.yml",
+     "locales/et.yml",
+     "locales/fa.yml",
+     "locales/fa.yml",
+     "locales/fi.yml",
+     "locales/fi.yml",
      "locales/fr.yml",
      "locales/fr.yml",
+     "locales/gl.yml",
+     "locales/gl.yml",
+     "locales/hi.yml",
+     "locales/hi.yml",
+     "locales/hr.yml",
+     "locales/hr.yml",
+     "locales/hu.yml",
+     "locales/hu.yml",
+     "locales/id.yml",
+     "locales/id.yml",
      "locales/it.yml",
      "locales/it.yml",
      "locales/iw.yml",
@@ -106,12 +122,16 @@ Gem::Specification.new do |s|
      "locales/lt.yml",
      "locales/lv.yml",
      "locales/lv.yml",
+     "locales/mt.yml",
+     "locales/mt.yml",
      "locales/nl.yml",
      "locales/nl.yml",
      "locales/no.yml",
      "locales/no.yml",
      "locales/pl.yml",
      "locales/pl.yml",
+     "locales/pt-PT.yml",
+     "locales/pt-PT.yml",
      "locales/pt.yml",
      "locales/pt.yml",
      "locales/ro.yml",
@@ -122,12 +142,18 @@ Gem::Specification.new do |s|
      "locales/sk.yml",
      "locales/sl.yml",
      "locales/sl.yml",
+     "locales/sq.yml",
+     "locales/sq.yml",
      "locales/sr.yml",
      "locales/sr.yml",
      "locales/sv.yml",
      "locales/sv.yml",
+     "locales/th.yml",
+     "locales/th.yml",
      "locales/tl.yml",
      "locales/tl.yml",
+     "locales/tr.yml",
+     "locales/tr.yml",
      "locales/uk.yml",
      "locales/uk.yml",
      "locales/vi.yml",
@@ -241,12 +267,11 @@ Gem::Specification.new do |s|
      "test/rails_root/themes/red/views/layouts/global/_head.html.erb",
      "test/rails_root/themes/red/views/layouts/global/_header.html.erb"
   ]
-  s.has_rdoc = true
   s.homepage = %q{http://github.com/jbasdf/disguise}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{disguise}
-  s.rubygems_version = %q{1.3.1}
+  s.rubygems_version = %q{1.3.5}
   s.summary = %q{Easy to use view theme system for Rails}
   s.test_files = [
     "test/rails_root/app/controllers/admin/domain_themes_controller.rb",
@@ -284,7 +309,7 @@ Gem::Specification.new do |s|
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
-    s.specification_version = 2
+    s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
     else
