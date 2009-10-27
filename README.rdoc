@@ -52,4 +52,4 @@ To enable this second mode create an initializer in /config/initializers/disguis
 
 == Copyright
 
-Copyright (c) 2009 Justin Ball. See LICENSE for details.
+Copyright (c) 2009 Tatemae.com. See LICENSE for details.
