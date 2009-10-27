@@ -10,23 +10,14 @@ end
 
 begin
   require 'jeweler'
-  Jeweler::Tasks.new do |gem|
-    gem.name = "disguise"
-    gem.summary = "Easy to use view theme system for Rails"
-    gem.email = "justinball@gmail.com"
-    gem.homepage = "http://github.com/jbasdf/disguise"
-    gem.description = "Add themes to your Rails application to easily change the view layer and impress everyone you know"
-    gem.authors = ["Justin Ball"]
-    gem.rubyforge_project = "disguise"
-    gem.files.include %w( tasks/*
-                          db/migrate/*.rb
-                          generators/**/**/**/*
-                          app/**/**/**/*
-                          config/*
-                          locales/*
-                          rails/*
-                          test/*
-                          lib/**/* )
+  Jeweler::Tasks.new do |gemspec|
+    gemspec.name = "disguise"
+    gemspec.summary = "Easy to use view theme system for Rails"
+    gemspec.email = "justinball@gmail.com"
+    gemspec.homepage = "http://github.com/jbasdf/disguise"
+    gemspec.description = "Add themes to your Rails application to easily change the view layer and impress everyone you know"
+    gemspec.authors = ["Justin Ball"]
+    gemspec.rubyforge_project = "disguise"
   end
   Jeweler::GemcutterTasks.new
   Jeweler::RubyforgeTasks.new do |rubyforge|
