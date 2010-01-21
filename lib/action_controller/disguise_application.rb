@@ -23,11 +23,13 @@ module ActionController
       protected
 
       def setup_theme
+        return if !Disguise.themes_enabled
         return if current_theme.blank? || current_theme.name.blank?
-        theme_view_path = File.join(Disguise::THEME_FULL_BASE_PATH, current_theme.name, 'views')
+        theme_view_path = File.join(Disguise.theme_full_base_path, current_theme.name, 'views')
         if self.view_paths.first == theme_view_path
           return
         else
+          return if !theme_exists(theme_view_path)
           clean_theme_view_path
           self.prepend_view_path(theme_view_path)
           clean_theme_locale
@@ -36,12 +38,17 @@ module ActionController
         end
       end
 
+      def theme_exists(theme_view_path)
+        @themes_exists ||= {}
+        @themes_exists[theme_view_path] ||= File.exists?(theme_view_path)
+      end
+      
       def clean_theme_view_path
-        self.view_paths.delete_if {|view_path| view_path.to_s.index(Disguise::THEME_PATH) == 0}
+        self.view_paths.delete_if {|view_path| view_path.to_s.index(Disguise.theme_path) == 0}
       end
 
       def clean_theme_locale
-        I18n.load_path.delete_if {|localization_path| localization_path.index(Disguise::THEME_FULL_BASE_PATH) == 0}
+        I18n.load_path.delete_if {|localization_path| localization_path.index(Disguise.theme_full_base_path) == 0}
       end
 
       def set_theme_locale

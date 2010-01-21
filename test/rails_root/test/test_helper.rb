@@ -25,11 +25,11 @@ class ActiveSupport::TestCase
   end
   
   def clean_theme_view_path(controller)
-    controller.view_paths.delete_if {|view_path| view_path.to_s.index(Disguise::THEME_PATH) == 0}
+    controller.view_paths.delete_if {|view_path| view_path.to_s.index(Disguise.theme_path) == 0}
   end
 
   def clean_theme_locale
-    I18n.load_path.delete_if {|localization_path| localization_path.index(Disguise::THEME_FULL_BASE_PATH) == 0}
+    I18n.load_path.delete_if {|localization_path| localization_path.index(Disguise.theme_full_base_path) == 0}
   end
   
 end
