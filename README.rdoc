@@ -48,12 +48,12 @@ Disguise can run in two modes.  The first is the default which let's an administ
 via the built in admin interface.  The second looks at the url of the incoming request and matches it to a theme.
 To enable this second mode create an initializer in /config/initializers/disguise.rb and enter the following contents:
 
-  Disguise.use_domain_for_themes = false
+  Disguise::Config.use_domain_for_themes = false
   
   # These options are also available to configure disguise.  In most cases the defaults should work fine.
-  Disguise.themes_enabled = true
-  Disguise.theme_path = 'themes'
-  Disguise.theme_full_base_path = File.join(RAILS_ROOT, Disguise.theme_path)
+  Disguise::Config.themes_enabled = true
+  Disguise::Config.theme_path = 'themes'
+  Disguise::Config.theme_full_base_path = File.join(RAILS_ROOT, Disguise::Config.theme_path)
 
 == Notes
 After installing Disguise be sure to generate a theme and set that theme as the default theme.  Not setting a theme
