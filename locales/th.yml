@@ -1,20 +1,20 @@
 --- 
 th: 
   disguise: 
-    activate_theme_message: คลิกที่ชุดรูปแบบเพื่อใช้งาน
+    activate_theme_message: "คลิก ที่ ชุด รูป แบบ เพื่อ ใช้ งาน"
     add_uri: เพิ่ม
-    current_theme: ชุดรูปแบบปัจจุบัน
+    current_theme: "ชุด รูป แบบ ปัจจุบัน"
     delete_uri: ลบ
-    error_creating_domain_theme: "มีปัญหาเพิ่ม url: {{error}} คือ"
+    error_creating_domain_theme: "มี ปัญหา เพิ่ม url: {{error}} คือ"
     name_theme: ~
-    no_current_theme: ขณะนี้เรื่องไม่ได้รับเลือกสำหรับโปรแกรมนี้และเพื่อดูการสมัครเริ่มต้นจะใช้.
-    no_themes_message: "คุณยังไม่ได้สร้างธีมสำหรับใบสมัครของคุณ. ถ้าคุณต้องการสร้างชุดรูปแบบใหม่เพียงใช้ทำ theme และปฏิบัติตามคำแนะนำ:"
-    remove_all_themes: ลบรูปแบบและการประยุกต์ใช้ค่าเริ่มต้นแม่แบบ
+    no_current_theme: "ขณะ นี้ เรื่อง ไม่ ได้ รับ เลือก สำหรับ โปรแกรม นี้ และ เพื่อ ดู การ สมัคร เริ่ม ต้น จะ ใช้."
+    no_themes_message: "คุณ ยัง ไม่ ได้ สร้าง ธีม สำหรับ ใบ สมัคร ของ คุณ. ถ้า คุณ ต้องการ สร้าง ชุด รูป แบบ ใหม่ เพียง ใช้ ทำ theme และ ปฏิบัติ ตาม คำ แนะนำ:"
+    remove_all_themes: "ลบ รูป แบบ และ การ ประยุกต์ ใช้ ค่า เริ่ม ต้น แม่ แบบ"
     set_theme: "Theme Set"
-    theme_removed: ธีมทั้งหมดถูกลบ
-    theme_updated: "Theme แล้วสำเร็จ."
+    theme_removed: "ธีม ทั้งหมด ถูก ลบ"
+    theme_updated: "Theme แล้ว สำเร็จ."
     theme_uri_label: "URL สำหรับ Theme"
     update_uri: "Url Update"
-    uri_deleted: "URL ที่ระบุถูกลบ"
-    uris_title: ชุดรูปแบบนี้จะปรากฏทุกต่างๆต่อไปนี้
-    use_domain_themes: "ชุดรูปแบบปัจจุบันจะพิจารณาจาก URL ที่ระบุกับเรื่องนี้แต่ละ."
+    uri_deleted: "URL ที่ ระบุ ถูก ลบ"
+    uris_title: "ชุด รูป แบบ นี้ จะ ปรากฏ ทุก ต่างๆ ต่อ ไป นี้"
+    use_domain_themes: "ชุด รูป แบบ ปัจจุบัน จะ พิจารณา จาก URL ที่ ระบุ กับ เรื่อง นี้ แต่ละ."

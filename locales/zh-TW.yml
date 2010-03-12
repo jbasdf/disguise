@@ -17,4 +17,4 @@ zh-TW:
     update_uri: 更新URL
     uri_deleted: 指定的URL已被刪除
     uris_title: 這一主題將顯示所有以下網址
-    use_domain_themes: 目前的主題將取決於URL中指定的每個主題下面。
+    use_domain_themes: "目前的主題將取決於 URL中指定的每個主題下面。"
