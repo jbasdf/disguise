@@ -1,0 +1,20 @@
+--- 
+fi: 
+  disguise: 
+    activate_theme_message: "Klikkaa teema aktivoida se"
+    add_uri: Lisätä
+    current_theme: "Nykyinen teema"
+    delete_uri: Poistaa
+    error_creating_domain_theme: "Ongelma lisäämällä url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Tällä hetkellä ei teema on valittu tämän sovelluksen ja niin oletussovellus mielestä käytetään."
+    no_themes_message: "Et ole vielä luonut teemoja hakemuksen. Jos haluat luoda uuden teeman yksinkertaisesti ajaa teema generaattori ja seuraa ohjeita:"
+    remove_all_themes: "Poista kaikki teemat ja käyttää oletuksena sovelluksen malleja"
+    set_theme: "Aseta aihe"
+    theme_removed: "Kaikki teemat on poistettu"
+    theme_updated: "Teema päivitys onnistui."
+    theme_uri_label: "Url Theme"
+    update_uri: "Päivitä Url"
+    uri_deleted: "Määritellyt url on poistettu"
+    uris_title: "Tämä teema näkyy kaikki seuraavat URL-osoitteet"
+    use_domain_themes: "Nykyinen teema päätetään url määritelty kunkin teeman alle."

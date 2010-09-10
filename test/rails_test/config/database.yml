@@ -1,0 +1,14 @@
+development:
+  adapter: mysql
+  database: disguise_development
+  username: root
+  password:
+  host: localhost
+  encoding: utf8
+test:
+  adapter: mysql
+  database: disguise_test
+  username: root
+  password:
+  host: localhost
+  encoding: utf8

@@ -1,0 +1,20 @@
+--- 
+ko: 
+  disguise: 
+    activate_theme_message: "클릭 테마에 그것을 활성화하기 위해"
+    add_uri: 추가하기
+    current_theme: "현재 테마"
+    delete_uri: 삭제
+    error_creating_domain_theme: "문제가 URL을 추가 되었음 : {{error}}"
+    name_theme: ~
+    no_current_theme: "현재 테마는이 응용 프로그램에 대한 선정되었으며 그래서 기본 응용 프로그램보기가 사용됩니다."
+    no_themes_message: "당신이 아직 귀하의 응용 프로그램에 대한 주제를 작성하지 않았습니다. 당신은 단순히 테마 생성기를 실행하고 지침에 따라 새 테마를 만들려면 :"
+    remove_all_themes: "모든 테마와 사용 기본 응용 프로그램 서식 파일을 제거"
+    set_theme: "테마 설정"
+    theme_removed: "모든 테마가 삭제되었습니다"
+    theme_updated: "테마가 성공적으로 업데이 트되었습니다."
+    theme_uri_label: "URL이 테마에 대한"
+    update_uri: "업데이트 이전 URL"
+    uri_deleted: "지정된 URL이 삭제되었습니다"
+    uris_title: "이 주제는 모두 다음과 같은 URL에 표시됩니다"
+    use_domain_themes: "현재의 테마는 URL로 지정한에 따라 결정됩니다 각각의 주제 아래."

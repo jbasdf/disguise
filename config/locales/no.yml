@@ -1,0 +1,21 @@
+--- 
+? "no"
+: 
+  disguise: 
+    activate_theme_message: "Klikk på et tema for å aktivere den"
+    add_uri: "Legg til"
+    current_theme: "Gjeldende Theme"
+    delete_uri: Slett
+    error_creating_domain_theme: "Det oppstod et problem å legge til url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Foreløpig ingen Temaet er valgt for dette programmet, og så standard program visningen vil bli brukt."
+    no_themes_message: "Du har ennå ikke opprettet noen temaer for programmet. Hvis du vil opprette et nytt emne bare løpe temaet generatoren og følg instruksjonene:"
+    remove_all_themes: "Fjern alle temaer og bruk standardprogram maler"
+    set_theme: "Sett Theme"
+    theme_removed: "Alle temaer er fjernet"
+    theme_updated: "Tema var oppdatert."
+    theme_uri_label: "Url for tema"
+    update_uri: "Oppdater Url"
+    uri_deleted: "Den angitte nettadressen er slettet"
+    uris_title: "Dette temaet vil bli vist for alle følgende nettadresser"
+    use_domain_themes: "Det aktuelle temaet vil bli bestemt av Nettadressen med hvert tema nedenfor."

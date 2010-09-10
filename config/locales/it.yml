@@ -1,0 +1,20 @@
+--- 
+it: 
+  disguise: 
+    activate_theme_message: "Fare clic su un tema per attivarla"
+    add_uri: Aggiungere
+    current_theme: "Tema attuale"
+    delete_uri: Cancellare
+    error_creating_domain_theme: "C&#39;è stato un problema ad aggiungere l&#39;URL: {{error}}"
+    name_theme: ~
+    no_current_theme: "Al momento non sono tema è stato selezionato per questa applicazione e quindi la visualizzazione applicazione predefinita verrà utilizzato."
+    no_themes_message: "Non hai ancora creato nessun temi per la vostra applicazione. Se si desidera creare un nuovo tema semplicemente eseguire il tema generatore e segui le istruzioni:"
+    remove_all_themes: "Rimuovere tutti i temi e l&#39;applicazione di default utilizzare i modelli"
+    set_theme: "Set Theme"
+    theme_removed: "Tutti i temi sono stati rimossi"
+    theme_updated: "Tema è stato aggiornato con successo."
+    theme_uri_label: "Url per il tema"
+    update_uri: "URL di aggiornamento"
+    uri_deleted: "L&#39;URL specificato è stato eliminato"
+    uris_title: "Questo tema sarà visualizzato per tutti gli URL seguenti"
+    use_domain_themes: "Il tema attuale sarà determinato dal url specificato con ogni tema di seguito."

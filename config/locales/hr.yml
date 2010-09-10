@@ -1,0 +1,20 @@
+--- 
+hr: 
+  disguise: 
+    activate_theme_message: "Kliknite na temu da ga aktivirate"
+    add_uri: Dodati
+    current_theme: "Trenutni Tema"
+    delete_uri: Izbrisati
+    error_creating_domain_theme: "Došlo je do problema dodajući url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Trenutno nema tema je izabrana za ovu aplikaciju i tako zadani program će se koristiti."
+    no_themes_message: "Još uvijek niste napravili teme za svoju aplikaciju. Ako biste željeli kreirati novu temu jednostavno pokrenite Theme Generator i slijedite upute:"
+    remove_all_themes: "Uklonite sve teme i aplikacije koristite zadane predloške"
+    set_theme: "Postavi Tema"
+    theme_removed: "Sve teme su uklonjene"
+    theme_updated: "Tema je uspješno ažurirana."
+    theme_uri_label: "URL za temu"
+    update_uri: "Update Url"
+    uri_deleted: "Navedenom URL-u je obrisana"
+    uris_title: "Ova tema će biti prikazani za sve sljedeće URL-ove"
+    use_domain_themes: "Tekuće tema će biti određena URL naveden sa svakom temom u nastavku."

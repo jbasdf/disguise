@@ -1,0 +1,20 @@
+--- 
+et: 
+  disguise: 
+    activate_theme_message: "Kliki teema aktiveerida"
+    add_uri: Lisama
+    current_theme: "Jooksev teema"
+    delete_uri: Kustutama
+    error_creating_domain_theme: "Probleem lisades url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Praegu ei ole teemaks on valitud käesoleva taotluse ja nii vaikerakenduses et hakatakse kasutama."
+    no_themes_message: "Sa pole veel loonud ühtegi teemat teie taotlusele. Kui soovite luua uue teema lihtsalt kulgema teema generaator ja järgige juhiseid:"
+    remove_all_themes: "Kustuta kõik teemad ja kasutada vaikerakenduses malle"
+    set_theme: "Sea Theme"
+    theme_removed: "Kõik teemad on eemaldatud"
+    theme_updated: "Theme oli edukalt uuendatud."
+    theme_uri_label: "URL teema"
+    update_uri: "Update Url"
+    uri_deleted: "Täpsustatud url on kustutatud"
+    uris_title: "See teema kuvatakse kõik allpool toodud veebilehtedelt"
+    use_domain_themes: "Praeguse teema määrab url täpsustada iga teema alla."

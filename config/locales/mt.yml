@@ -1,0 +1,20 @@
+--- 
+mt: 
+  disguise: 
+    activate_theme_message: "Ikklikkja fuq tema li din tiġi attivata"
+    add_uri: Żid
+    current_theme: "Kurrenti Tema"
+    delete_uri: Ħassar
+    error_creating_domain_theme: "Kien hemm problema żżid l-url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Bħalissa l-ebda tema ntgħażlet għal din l-applikazzjoni u għalhekk il-ħsieb applikazzjoni awtomatika se jintużaw."
+    no_themes_message: "Għadek ma jinħolqu ebda temi għall-applikazzjoni tiegħek. Jekk inti tixtieq toħloq tema ġodda sempliċement run-ġeneratur tema u segwi l-istruzzjonijiet:"
+    remove_all_themes: "Neħħi l-temi u l-applikazzjoni inadempjenza użu mudelli"
+    set_theme: "Set Tema"
+    theme_removed: "Temi kollha jkunu tneħħew"
+    theme_updated: "Tema kienet b&#39;suċċess aġġornata."
+    theme_uri_label: "Url għall Tema"
+    update_uri: "Aġġornament url"
+    uri_deleted: "L-url speċifikat ġiet imħassra"
+    uris_title: "Din it-tema se jintwerew kollha għall-URLs segwenti"
+    use_domain_themes: "It-tema attwali se tiġi determinata mill-url speċifikat ma &#39;kull tema hawn taħt."

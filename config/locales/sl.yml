@@ -1,0 +1,20 @@
+--- 
+sl: 
+  disguise: 
+    activate_theme_message: "Kliknite na temo, da jo vključite"
+    add_uri: Dodaj
+    current_theme: "Trenutna tema"
+    delete_uri: Izbriši
+    error_creating_domain_theme: "Prišlo je do težave dodal url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Trenutno ni bil tema izbrali za to vlogo in tako Privzeta aplikacija mnenju se bodo uporabljali."
+    no_themes_message: "Še niste ustvarili nobene teme za vašo prijavo. Če želite ustvariti novo temo nekomplicirano prost tema generator in sledite navodilom:"
+    remove_all_themes: "Odstranite vse teme in uporabo aplikacij privzete predloge"
+    set_theme: "Set Theme"
+    theme_removed: "Vse teme so bile odstranjene"
+    theme_updated: "Tema je bila uspešno posodobljena."
+    theme_uri_label: "Url za teme"
+    update_uri: "Update Url"
+    uri_deleted: "Določen url je bila izbrisana"
+    uris_title: "Ta tema bo prikazan za vse naslednje urls"
+    use_domain_themes: "Trenutna tema bo določil url določene z vsako temo spodaj."

@@ -1,7 +1,7 @@
 class Theme < ActiveRecord::Base
 
   def locales
-    Dir[ File.join(RAILS_ROOT, 'themes', self.name, 'locales', '*.{rb,yml}') ]
+    Dir[ File.join(::Rails.root.to_s, 'themes', self.name, 'locales', '*.{rb,yml}') ]
   end
   
   # This method will iterate through all available themes in the theme directory
@@ -12,15 +12,15 @@ class Theme < ActiveRecord::Base
   # along with a preview image.
   def self.available_themes(selected_theme)
     themes = []
-    theme_path = File.join(RAILS_ROOT, Disguise::Config.theme_path)
+    theme_path = Disguise.configuration.theme_full_base_path
     current_theme = nil
     
     Dir.glob("#{theme_path}/*").each do |theme_directory|
       if File.directory?(theme_directory)
         theme_name = File.basename(theme_directory)
 
-        image = Dir.glob(File.join(RAILS_ROOT, 'public', 'images', theme_name, 'preview.*')).first || File.join('/', 'images', 'no_preview.gif')
-        image = image.gsub(File.join(RAILS_ROOT, 'public'), '')
+        image = Dir.glob(File.join(::Rails.root.to_s, 'public', 'images', theme_name, 'preview.*')).first || File.join('/', 'images', 'no_preview.gif')
+        image = image.gsub(File.join(::Rails.root.to_s, 'public'), '')
 
         description = ''
         description_file = File.join(theme_directory, 'description.txt')
