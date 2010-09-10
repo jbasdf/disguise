@@ -1,0 +1,20 @@
+--- 
+th: 
+  disguise: 
+    activate_theme_message: คลิกที่รูปเพื่อเปิดใช้งาน
+    add_uri: เพิ่ม
+    current_theme: "Theme ปัจจุบัน"
+    delete_uri: ลบ
+    error_creating_domain_theme: "มีปัญหาเพิ่ม url was : {{error}}"
+    name_theme: ~
+    no_current_theme: ขณะนี้รูปแบบไม่ได้รับเลือกสำหรับโปรแกรมนี้และให้มุมมองเริ่มต้นโปรแกรมจะใช้
+    no_themes_message: "คุณยังไม่ได้สร้างรูปแบบใดสำหรับโปรแกรมของคุณ ถ้าคุณต้องการสร้างชุดรูปแบบใหม่เพียงแค่ใช้ theme generator และปฏิบัติตามคำแนะนำ :"
+    remove_all_themes: ลบรูปแบบและการประยุกต์ใช้แม่แบบเริ่มต้น
+    set_theme: "Theme Set"
+    theme_removed: ธีมทั้งหมดถูกลบ
+    theme_updated: "Theme ได้รับการปรับปรุงเรียบร้อยแล้ว"
+    theme_uri_label: "Url สำหรับ Theme"
+    update_uri: "Url Update"
+    uri_deleted: "URL ที่ระบุไว้ถูกลบไปแล้ว"
+    uris_title: "ชุดรูปแบบนี้จะปรากฏทุก URL ต่อไปนี้"
+    use_domain_themes: "ชุดรูปแบบปัจจุบันจะถูกกำหนดโดย url ที่ระบุไว้ด้านล่างมี theme แต่ละ"

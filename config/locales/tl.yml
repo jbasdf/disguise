@@ -1,0 +1,20 @@
+--- 
+tl: 
+  disguise: 
+    activate_theme_message: "Mag-click sa isang tema upang ma-activate ito"
+    add_uri: Idagdag
+    current_theme: "Kasalukuyang Theme"
+    delete_uri: Alisin
+    error_creating_domain_theme: "May problema sa pagdagdag ng url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Kasalukuyang walang tema ay pinili para sa aplikasyon na ito at sa gayon ang default na view ng aplikasyon ay gagamitin."
+    no_themes_message: "Hindi ka pa nakalikha ng anumang mga tema para sa iyong application. Kung nais mong lumikha ng isang bagong tema lang tumakbo ang tema dyeneretor at sundin ang mga tagubilin:"
+    remove_all_themes: "Tanggalin ang lahat ng mga tema at gamitin ang default na application template"
+    set_theme: "Itakda ang Theme"
+    theme_removed: "Lahat ng mga tema ay tinanggal"
+    theme_updated: "Tema ay matagumpay na na-update."
+    theme_uri_label: "Url para sa Theme"
+    update_uri: "I-update Url"
+    uri_deleted: "Ang tinukoy na url ay tinanggal na"
+    uris_title: "Ang temang ito ay ipapakita para sa lahat ng mga sumusunod na mga url"
+    use_domain_themes: "Ang kasalukuyang tema ay tinutukoy ng ang url na tinukoy sa bawat tema sa ibaba."

@@ -1,0 +1,20 @@
+--- 
+vi: 
+  disguise: 
+    activate_theme_message: "Nhắp chuột vào một chủ đề để kích hoạt nó"
+    add_uri: Thêm
+    current_theme: "Chủ đề hiện tại"
+    delete_uri: Xóa
+    error_creating_domain_theme: "Có một vấn đề thêm url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Hiện nay không có chủ đề được chọn cho ứng dụng này và để mặc định xem ứng dụng sẽ được sử dụng."
+    no_themes_message: "Bạn chưa tạo ra bất kỳ chủ đề cho các ứng dụng của bạn. Nếu bạn muốn tạo một chủ đề mới chỉ đơn giản là chạy các máy phát điện chủ đề và làm theo hướng dẫn:"
+    remove_all_themes: "Hủy bỏ tất cả các chủ đề và các ứng dụng mặc định sử dụng các mẫu"
+    set_theme: "Thiết lập Theme"
+    theme_removed: "Tất cả các chủ đề đã được loại bỏ"
+    theme_updated: "Chủ đề được cập nhật thành công."
+    theme_uri_label: "Url cho Theme"
+    update_uri: "Thông Url"
+    uri_deleted: "Các url quy định đã được xóa"
+    uris_title: "Chủ đề này sẽ được hiển thị cho tất cả các url sau đây"
+    use_domain_themes: "Chủ đề của hiện tại sẽ được xác định bằng địa chỉ quy định với từng chủ đề dưới đây."

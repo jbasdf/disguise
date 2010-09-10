@@ -1,0 +1,20 @@
+--- 
+hu: 
+  disguise: 
+    activate_theme_message: "Kattintson egy téma aktiválásához"
+    add_uri: Összead
+    current_theme: "Aktuális téma"
+    delete_uri: Töröl
+    error_creating_domain_theme: "Hiba történt az URL: {{error}}"
+    name_theme: ~
+    no_current_theme: "Jelenleg nincs témát választották ki az alkalmazás és így az alapértelmezett alkalmazás céljából kerül felhasználásra."
+    no_themes_message: "Ön még nem hozott létre olyan téma az alkalmazás. Ha szeretnél egy új témát egyszerűen fuss a téma generátor és kövesse az utasításokat:"
+    remove_all_themes: "Távolítson el minden témát, és használja az alapértelmezett sablonok alkalmazása"
+    set_theme: "Meghatározott téma"
+    theme_removed: "Az összes téma eltávolították"
+    theme_updated: "Téma sikeresen frissítve."
+    theme_uri_label: "Url a téma"
+    update_uri: "Url frissítés"
+    uri_deleted: "A megadott url törölték"
+    uris_title: "Ez a téma jelenik meg, a következő URL-eket"
+    use_domain_themes: "Az aktuális téma határozza meg az url határozni az egyes témákban az alábbiakban."

@@ -1,0 +1,20 @@
+--- 
+lv: 
+  disguise: 
+    activate_theme_message: "Klikšķiniet uz tēmu, lai aktivizētu"
+    add_uri: Pievienot
+    current_theme: "Pašreizējā tēma"
+    delete_uri: Izdzēst
+    error_creating_domain_theme: "Radās problēma, piebilstot, url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Pašlaik neviena tēma ir izvēlēta par šo pieteikumu un tā noklusējuma pieteikumu skats tiks izmantota."
+    no_themes_message: "Jums vēl nav izveidojis nevienu tēmu par jūsu pieteikumu. Ja jūs vēlaties izveidot jaunu tēmu vienkārši palaist tēmu ģenerators un sekojiet instrukcijām:"
+    remove_all_themes: "Noņemiet visas tēmas un izmantot noklusēto pieteikumu veidnes"
+    set_theme: "Uzstādīt Theme"
+    theme_removed: "Visas tēmas ir novērsti"
+    theme_updated: "Tēma ir veiksmīgi atjaunināts."
+    theme_uri_label: "URL tēmas"
+    update_uri: "Update Url"
+    uri_deleted: "Norādīto url ir dzēsta"
+    uris_title: "Šī tēma tiks parādīts uz visiem šiem URL"
+    use_domain_themes: "Pašreizējā tēma tiks noteikta url norādīta ar katras tēmas zemāk."

@@ -3,7 +3,12 @@
 A simple theme system for your Rails application.
 
 == Installation
-sudo gem install disguise
+  
+  sudo gem install disguise
+
+Add disguise to your Gemfile:
+
+  gem 'disguise'
 
 == Setup
 Disguise comes with a couple of admin controllers to make changing your theme simple.  By default they are not protected.  
@@ -22,43 +27,41 @@ In order to prevent unauthorized users from changing your theme you can override
 
 Also be sure to add a route to the new controller in routes.rb:
 
-  # admin
-  map.namespace :admin do |a|
-    a.resource :theme
-    a.resources :domain_themes
+  Rails.application.routes.draw do
+    namespace "admin" do
+      resources :theme
+      resources :domain_themes
+    end
   end
 
+=== Create an initializer to configure disguise
+
+Disguise can run in two modes.  The first is the default which let's an administrator set the current theme
+via the built in admin interface.  The second looks at the url of the incoming request and matches it to a theme.
+The default settings are fine for most uses but if you'd like to customize disguise then create an initializer in 
+/config/initializers/disguise.rb and enter the following contents:
+
+Disguise.configure do |config|
+  config.use_domain_for_themes = false    # Changing theme per domain can be expense so it's off by default
+  config.themes_enabled = true            # Turns disguise off/on.
+  config.theme_path = 'themes'            # Path where themes will live. Calculated off the app root.
+  config.theme_full_base_path = File.join(::Rails.root.to_s, config.theme_path) # Full path to the themes folder
+end
+
 === Rake tasks
-
-Add disguise rake tasks to your rails project.  Include the following line at the end of your Rakefile:
-
-  require 'disguise/tasks'
-
-Then run the following to add the required files and database migration:
-  rake disguise:setup 
+Disguise provides a rake task for syncing the required files into your application. After include disguise do this:
+  rake disguise:sync
   rake db:migrate
-
 
 == Usage
 Generate a new theme for your Rails application using the built in theme generator:
   
   ./script/generate theme theme_name
        
-Disguise can run in two modes.  The first is the default which let's an administrator set the current theme
-via the built in admin interface.  The second looks at the url of the incoming request and matches it to a theme.
-To enable this second mode create an initializer in /config/initializers/disguise.rb and enter the following contents:
-
-  Disguise::Config.use_domain_for_themes = false
-  
-  # These options are also available to configure disguise.  In most cases the defaults should work fine.
-  Disguise::Config.themes_enabled = true
-  Disguise::Config.theme_path = 'themes'
-  Disguise::Config.theme_full_base_path = File.join(RAILS_ROOT, Disguise::Config.theme_path)
-
 == Notes
 After installing Disguise be sure to generate a theme and set that theme as the default theme.  Not setting a theme
-will result in the application continually resetting the current theme which can cause performance problems.
+will result in the application continually resetting the current theme which can cause serious performance problems.
 
 == Copyright
 
-Copyright (c) 2009 Tatemae.com. See LICENSE for details.
+Copyright (c) 2009-2010 Tatemae.com. See LICENSE for details.

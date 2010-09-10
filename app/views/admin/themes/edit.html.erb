@@ -6,7 +6,7 @@
     <h2><%= t('disguise.name_theme') %></h2>
     <% if @current_theme -%>
       <%= render :partial => 'admin/themes/theme', :object => @current_theme %>      
-      <% form_for @theme, :url => admin_theme_path, :html => { :method => :put } do |f| -%>
+      <%= form_for @theme, :url => admin_theme_path, :html => { :method => :put } do |f| -%>
         <%= f.hidden_field :name, :value => '' %>
         <%= submit_tag t('disguise.remove_all_themes'), :id => 'remove_all_themes', :name => 'remove_all_themes' %>
       <% end -%>
@@ -16,5 +16,12 @@
     <h2><%= t('disguise.activate_theme_message') %></h2>
   <% end -%>
 </div>
-<%= error_messages_for :theme %>
+<% if !@theme.blank? && @theme.errors.any? -%>
+  <ul>
+    <% @theme.errors.full_messages.each do |msg| -%>
+      <li><%= msg %></li>
+    <% end -%>
+  </ul>
+<% end -%>
+
 <%= render :partial => 'admin/themes/theme', :collection => @themes %>

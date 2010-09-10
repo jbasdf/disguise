@@ -1,0 +1,20 @@
+--- 
+lt: 
+  disguise: 
+    activate_theme_message: "Paspauskite ant tema ją aktyvuoti"
+    add_uri: Papildyti
+    current_theme: "Dabartinis tema"
+    delete_uri: Panaikinti
+    error_creating_domain_theme: "Iškilo problema pridėti URL: {{error}}"
+    name_theme: ~
+    no_current_theme: "Šiuo metu nėra jokių tema buvo pasirinktas dėl šio prašymo ir taip pagal nutylėjimą taikymo vaizdas bus naudojamas."
+    no_themes_message: "Jūs dar neturite susikūrę jokių jūsų prašymą temas. Jei norite sukurti naują temą tiesiog paleiskite tema generatorius ir sekite instrukcijas:"
+    remove_all_themes: "Pašalinti visos temos ir naudoti numatytuosius taikymo šablonai"
+    set_theme: "Nustatykite temą"
+    theme_removed: "Visos temos, buvo pašalintos"
+    theme_updated: "Tema buvo sėkmingai atnaujintas."
+    theme_uri_label: "URL tema"
+    update_uri: "Atnaujinti URL"
+    uri_deleted: "URL adrese buvo ištrintas"
+    uris_title: "Ši tema bus rodomas visus šiuos URL"
+    use_domain_themes: "Dabartinė tema bus nustatomas pagal url su kiekviena tema žemiau."

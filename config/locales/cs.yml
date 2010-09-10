@@ -1,0 +1,20 @@
+--- 
+cs: 
+  disguise: 
+    activate_theme_message: "Kliknutím na téma se aktivovat"
+    add_uri: Přidat
+    current_theme: "Aktuální téma"
+    delete_uri: Vymazat
+    error_creating_domain_theme: "Tam byl problém přidat url: {{error}}"
+    name_theme: ~
+    no_current_theme: "V současné době žádný motiv byl vybrán pro tuto aplikaci, a tak výchozí aplikaci názoru budou použity."
+    no_themes_message: "Jste si ještě nevytvořili žádné témata pro vaši aplikaci. Pokud chcete vytvořit nové téma Stačí spustit téma generátor a postupujte podle pokynů:"
+    remove_all_themes: "Odstranit všechny témata a využití výchozí šablony aplikací"
+    set_theme: "Set téma"
+    theme_removed: "Všechny motivy byly odstraněny"
+    theme_updated: "Téma bylo úspěšně aktualizováno."
+    theme_uri_label: "URL pro téma"
+    update_uri: "Update Url"
+    uri_deleted: "Zadaná adresa URL byla smazána"
+    uris_title: "Toto téma se zobrazí všechny následující adresy URL"
+    use_domain_themes: "Aktuální téma bude stanovena URL specifikované s každým tématem níže."

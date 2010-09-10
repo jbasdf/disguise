@@ -1,0 +1,20 @@
+--- 
+ja: 
+  disguise: 
+    activate_theme_message: をクリックしてテーマに、それをアクティブにする
+    add_uri: 追加
+    current_theme: 現在のテーマ
+    delete_uri: 削除
+    error_creating_domain_theme: "問題がURLを追加されました：{{error}}"
+    name_theme: ~
+    no_current_theme: 現時点ではテーマは、このアプリケーション用に選択されているので、デフォルトのアプリケーションビューが使用されます。
+    no_themes_message: あなたはまだ、アプリケーションの任意のテーマを作成していない。場合は、単にテーマジェネレータを実行し、指示に従って新しいテーマを作成したい場合：
+    remove_all_themes: すべてのテーマおよび使用のデフォルトのアプリケーションを削除テンプレート
+    set_theme: 設定テーマ
+    theme_removed: すべてのテーマが削除されている
+    theme_updated: テーマが正常に更新されました。
+    theme_uri_label: URLをテーマに
+    update_uri: 更新URLを
+    uri_deleted: 指定されたURLを削除しました
+    uris_title: このテーマは、以下のすべてのURLに表示されます。
+    use_domain_themes: 現在のテーマは、URLで指定さによって決定されるテーマごとに以下の。

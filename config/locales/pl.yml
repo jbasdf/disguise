@@ -1,0 +1,20 @@
+--- 
+pl: 
+  disguise: 
+    activate_theme_message: "Kliknij na temat aby go uaktywnić"
+    add_uri: Dodać
+    current_theme: "Obecny styl"
+    delete_uri: Usunąć
+    error_creating_domain_theme: "Wystąpił problem z dodaniem url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Obecnie nie ma temat został wybrany dla tej aplikacji, a więc widok domyślnej aplikacji będzie używany."
+    no_themes_message: "Nie zostały jeszcze utworzone żadne tematy dla danej aplikacji. Jeśli chcesz utworzyć nowy styl po prostu uruchomić generator tematu i postępuj zgodnie z instrukcjami:"
+    remove_all_themes: "Usuń wszystkie tematy i domyślnej aplikacji używać szablonów"
+    set_theme: "Ustaw tematu"
+    theme_removed: "Wszystkie tematy zostały usunięte"
+    theme_updated: "Temat został zaktualizowany."
+    theme_uri_label: "Url do tematu"
+    update_uri: "Aktualizacja Url"
+    uri_deleted: "Podany adres URL został usunięty"
+    uris_title: "Ten motyw pojawi się na wszystkie podane poniżej"
+    use_domain_themes: "Obecny temat zostaną określone przez URL określony z każdego tematu poniżej."

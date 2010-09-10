@@ -1,0 +1,20 @@
+--- 
+sv: 
+  disguise: 
+    activate_theme_message: "Klicka på ett tema till aktivera den"
+    add_uri: "Lägg till"
+    current_theme: "Aktuellt tema"
+    delete_uri: "Ta bort"
+    error_creating_domain_theme: "Det var ett problem att lägga till url: {{error}}"
+    name_theme: ~
+    no_current_theme: "Närvarande inga tema har valts för denna applikation och så standardprogrammet anser kommer att användas."
+    no_themes_message: "Du har ännu inte skapat några teman för din ansökan. Om du vill skapa ett nytt tema bara köra temat generator och följ instruktionerna:"
+    remove_all_themes: "Ta bort alla teman och använd standardprogrammet mallar"
+    set_theme: "Ställ Tema"
+    theme_removed: "Alla teman har tagits bort"
+    theme_updated: "Tema har uppdaterats."
+    theme_uri_label: "Url för tema"
+    update_uri: "Uppdatera Url"
+    uri_deleted: "Den angivna webbadressen har tagits bort"
+    uris_title: "Detta tema kommer att visas för alla följande webbadresser"
+    use_domain_themes: "Det aktuella temat kommer att fastställas av webbadressen som anges med varje tema nedan."

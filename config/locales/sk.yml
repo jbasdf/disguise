@@ -1,0 +1,20 @@
+--- 
+sk: 
+  disguise: 
+    activate_theme_message: "Kliknutím na tému sa aktivovať"
+    add_uri: Pridať
+    current_theme: "Aktuálnu tému"
+    delete_uri: Vymazať
+    error_creating_domain_theme: "Tam bol problém pridať url: {{error}}"
+    name_theme: ~
+    no_current_theme: "V súčasnej dobe žiadny motív bol vybraný pre túto aplikáciu, a tak východiskové aplikáciu názoru budú použité."
+    no_themes_message: "Ste si ešte nevytvorili žiadne témy pre vašu aplikáciu. Ak chcete vytvoriť novú tému Stačí spustiť tému generátor a postupujte podľa pokynov:"
+    remove_all_themes: "Odstrániť všetky témy a využitie predvolené šablóny aplikácií"
+    set_theme: "Set tému"
+    theme_removed: "Všetky motívy boli odstránené"
+    theme_updated: "Téma bolo úspešne aktualizované."
+    theme_uri_label: "URL pre tému"
+    update_uri: "Update Url"
+    uri_deleted: "Zadaná adresa URL bola vymazaná"
+    uris_title: "Táto téma sa zobrazia všetky nasledujúce adresy URL"
+    use_domain_themes: "Aktuálnu tému bude stanovená URL špecifikovaná s každým témou nižšie."

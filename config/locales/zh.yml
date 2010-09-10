@@ -1,0 +1,20 @@
+--- 
+zh: 
+  disguise: 
+    activate_theme_message: 上一主题点击激活它
+    add_uri: 加
+    current_theme: 当前主题
+    delete_uri: 删除
+    error_creating_domain_theme: "有一个问题，加入网址：{{error}}"
+    name_theme: ~
+    no_current_theme: 目前没有任何主题已被选为该应用等应用程序的默认视图将被使用。
+    no_themes_message: 您尚未建立您的应用程序的任何主题。如果你想创建一个新的主题，主题是简单地运行发电机，并按照指示：
+    remove_all_themes: 删除所有的主题和模板使用默认的应用程序
+    set_theme: 设置主题
+    theme_removed: 所有的主题已被删除
+    theme_updated: 主题已成功更新。
+    theme_uri_label: 网址为主题
+    update_uri: 更新URL
+    uri_deleted: 指定的网址已被删除
+    uris_title: 这一主题将显示所有以下网址
+    use_domain_themes: 目前的主题，将取决于指定的每个主题下面的网址。
