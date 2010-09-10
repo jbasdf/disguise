@@ -2,6 +2,10 @@
 
 A simple theme system for your Rails application.
 
+== Note
+All disguise versions with 3.x.x will work with Rails 3 but not with Rails 2. Rails to compatible versions are labeled with 2.x.x and are available on the Rails2 branch. 
+The disguise master branch is now focused on Rails3 development.
+
 == Installation
   
   sudo gem install disguise
