@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2010-09-09}
+  s.date = %q{2010-09-10}
   s.description = %q{Add themes to your Rails application to easily change the view layer and impress everyone you know}
   s.email = %q{justinball@gmail.com}
   s.extra_rdoc_files = [
@@ -90,9 +90,9 @@ Gem::Specification.new do |s|
      "generators/theme/templates/views/_header.html.erb",
      "generators/theme/templates/views/default.html.erb",
      "generators/theme/theme_generator.rb",
-     "lib/action_controller/disguise_application.rb",
      "lib/disguise.rb",
      "lib/disguise/config.rb",
+     "lib/disguise/controllers/disguise_application.rb",
      "lib/disguise/engine.rb",
      "lib/tasks/diguise.rake",
      "test/rails_test/.gitignore",
