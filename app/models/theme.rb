@@ -12,7 +12,7 @@ class Theme < ActiveRecord::Base
   # along with a preview image.
   def self.available_themes(selected_theme)
     themes = []
-    theme_path = File.join(::Rails.root.to_s, Disguise.configuration.theme_path)
+    theme_path = Disguise.configuration.theme_full_base_path
     current_theme = nil
     
     Dir.glob("#{theme_path}/*").each do |theme_directory|

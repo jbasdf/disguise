@@ -15,14 +15,12 @@ module Disguise
   class Configuration
     attr_accessor :themes_enabled
     attr_accessor :use_domain_for_themes
-    attr_accessor :theme_path
     attr_accessor :theme_full_base_path
 
     def initialize
       @themes_enabled = true
       @use_domain_for_themes = false
-      @theme_path = 'themes'
-      @theme_full_base_path = File.join(::Rails.root.to_s, @theme_path)      
+      @theme_full_base_path = File.join(::Rails.root.to_s, 'themes')      
     end
   end
 end

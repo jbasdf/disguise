@@ -22,7 +22,7 @@ class ActiveSupport::TestCase
   end
   
   def clean_theme_view_path(controller)
-    controller.view_paths.delete_if {|view_path| view_path.to_s.index(Disguise.configuration.theme_path) == 0}
+    controller.view_paths.delete_if {|view_path| view_path.to_path.index(Disguise.configuration.theme_full_base_path) == 0}
   end
 
   def clean_theme_locale
