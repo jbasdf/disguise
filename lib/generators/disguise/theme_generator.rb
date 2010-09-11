@@ -1,5 +1,3 @@
-#require 'rails/generators'
-
 module Disguise
   module Generators
     class ThemeGenerator < Rails::Generators::NamedBase
@@ -25,11 +23,12 @@ module Disguise
 
         # localization
         copy_file "locales/en.yml", "themes/#{file_name}/locales/en.yml"
-
-        def show_readme
-          readme "INSTALL"
-        end
       end
+      
+      def show_readme
+        readme "INSTALL" if behavior == :invoke
+      end
+      
     end
   end
 end
