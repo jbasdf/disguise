@@ -1,13 +1,13 @@
-NAME
+Name:
      theme - Creates the folder structure for a new theme
 
-SYNOPSIS
+Synopsis:
      theme [theme_name]
 
-DESCRIPTION
+Description:
      This generator creates the folder structure for a new theme and copies over the appropriate files.
 
-EXAMPLE
+Example:
      rails generate disguise:theme theme_name
 
      This will generate the file structure for a theme named 'theme_name'.
