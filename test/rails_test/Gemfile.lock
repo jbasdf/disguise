@@ -1,7 +1,7 @@
 PATH
   remote: /Users/jbasdf/projects/disguise
   specs:
-    disguise (3.0.0)
+    disguise (3.0.1)
 
 GEM
   remote: http://rubygems.org/
