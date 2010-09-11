@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{disguise}
-  s.version = "3.0.0"
+  s.version = "3.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
@@ -83,15 +83,17 @@ Gem::Specification.new do |s|
      "lib/disguise/config.rb",
      "lib/disguise/controllers/disguise_application.rb",
      "lib/disguise/engine.rb",
-     "lib/generators/templates/INSTALL",
-     "lib/generators/templates/description.txt",
-     "lib/generators/templates/locales/en.yml",
-     "lib/generators/templates/preview.gif",
-     "lib/generators/templates/stylesheets/styles.css",
-     "lib/generators/templates/views/_footer.html.erb",
-     "lib/generators/templates/views/_head.html.erb",
-     "lib/generators/templates/views/_header.html.erb",
-     "lib/generators/templates/views/default.html.erb",
+     "lib/generators/disguise/USAGE",
+     "lib/generators/disguise/theme_generator.rb",
+     "lib/generators/disguise/theme_templates/INSTALL",
+     "lib/generators/disguise/theme_templates/description.txt",
+     "lib/generators/disguise/theme_templates/locales/en.yml",
+     "lib/generators/disguise/theme_templates/preview.gif",
+     "lib/generators/disguise/theme_templates/stylesheets/styles.css",
+     "lib/generators/disguise/theme_templates/views/_footer.html.erb",
+     "lib/generators/disguise/theme_templates/views/_head.html.erb",
+     "lib/generators/disguise/theme_templates/views/_header.html.erb",
+     "lib/generators/disguise/theme_templates/views/default.html.erb",
      "lib/tasks/diguise.rake",
      "test/rails_test/.gitignore",
      "test/rails_test/.rake_tasks",
