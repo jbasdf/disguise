@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{disguise}
-  s.version = "3.0.1"
+  s.version = "3.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball"]
-  s.date = %q{2010-09-10}
+  s.date = %q{2010-09-16}
   s.description = %q{Add themes to your Rails application to easily change the view layer and impress everyone you know}
   s.email = %q{justinball@gmail.com}
   s.extra_rdoc_files = [
