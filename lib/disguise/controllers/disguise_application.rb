@@ -31,9 +31,11 @@ module ActionController
           return if !theme_exists(theme_view_path)
           clean_theme_view_path
           self.prepend_view_path(ActionView::FileSystemResolver.new(theme_view_path))
-          clean_theme_locale
-          set_theme_locale
-          I18n.reload!
+          if Disguise.configuration.locales_enabled
+            clean_theme_locale
+            set_theme_locale
+            I18n.reload!
+          end
         end
       end
 

@@ -16,10 +16,12 @@ module Disguise
     attr_accessor :themes_enabled
     attr_accessor :use_domain_for_themes
     attr_accessor :theme_full_base_path
+    attr_accessor :locales_enabled
 
     def initialize
       @themes_enabled = true
-      @use_domain_for_themes = false
+      @locales_enabled = false
+      @use_domain_for_themes = false      
       @theme_full_base_path = File.join(::Rails.root.to_s, 'themes')      
     end
   end

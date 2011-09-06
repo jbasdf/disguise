@@ -47,6 +47,7 @@ The default settings are fine for most uses but if you'd like to customize disgu
 
 Disguise.configure do |config|
   config.use_domain_for_themes = false    # Changing theme per domain can be expense so it's off by default
+  config.locales_enabled = false          # Reloads locales based on the theme. Only enable this if you are using locales specific to each theme. Enabling this method requires reloading the locales which incurs a heavy performance penalty.
   config.themes_enabled = true            # Turns disguise off/on.
   config.theme_full_base_path = File.join(::Rails.root.to_s, 'themes') # Full path to the themes folder. The examples puts themes in a directory called 'themes' in the Rails app root.
 end
